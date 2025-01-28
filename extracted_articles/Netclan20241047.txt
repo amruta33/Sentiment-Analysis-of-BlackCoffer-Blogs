@@ -1,0 +1,59 @@
+AI-Driven Backend for Audio-to-Text Conversion and Analytical Assessment in Pharmaceutical Practice
+Client Background
+Client:
+A leading pharma tech firm in the USA
+Industry Type:
+Pharma
+Products & Services:
+Pharma Tech Consulting
+Organization Size:
+100+
+The Problem
+The primary challenge is developing a backend model for an application that captures audio responses from students and employs AI to analyze the content. The backend must perform several critical functions:
+Convert audio to text.
+Transform the text into analytics KPIs.
+Manage login/logout operations.
+Handle analytics API calls.
+Calculate the cosine similarity of the student’s response with the expected response.
+Solution Architecture
+To address this problem, we propose using Python for backend development, leveraging several key steps:
+Audio to Text Conversion: Utilize the SpeechRecognition library in Python for converting audio inputs into text. This library is known for its ease of use and flexibility, acting as a wrapper for several popular speech APIs 35.
+Text Analysis: Apply Natural Language Processing (NLP) techniques to the converted text, including sentiment analysis, readability analysis, and named entity recognition (NER). Libraries such as NLTK and SpaCy will be used for these purposes.
+User Authentication: Implement a secure authentication system using JWT tokens to manage login and logout operations.
+API Creation: Use Flask, a lightweight Python framework, to create APIs for managing user sessions and handling analytics data.
+Data Storage: Employ a relational database like PostgreSQL to store user session data, user profiles, and analytics data.
+Deployment: Deploy the application on a cloud platform such as AWS or Google Cloud.
+The architecture of the solution involves a backend model developed using Python, APIs for managing user sessions and analytics data, a secure user authentication system, and capabilities for converting audio to text and performing text analysis.
+Deliverables
+Backend model developed using Python.
+APIs for managing user sessions and analytics data.
+Secure user authentication system.
+System capable of converting audio to text.
+Text analysis capabilities including sentiment analysis, readability analysis, and NER.
+Deployed application on a cloud platform.
+Tech Stack
+Tools used
+Django React, JWT, PostgreSQL, AWS/Google Cloud.
+Language/techniques used
+Python 3.8 or higher
+Nodejs 16
+Models used
+SpeechRecognition for audio to text conversion, NLTK and SpaCy for text analysis.
+Skills used
+Backend development, API creation, Text Sentiment analysis – Cosine Similarity Scoring, Machine learning (Natural Language Processing).
+Databases used
+Sqlite3
+PostgreSQL
+Web Cloud Servers used
+AWS/Google Cloud.
+What are the technical Challenges Faced during Project Execution
+Challenge: Ensuring accurate audio to text conversion, especially with poor audio quality or heavy accents.
+Solution: Use a robust speech recognition library that supports multiple languages and dialects. Implement a mechanism for users to manually edit the transcribed text for accuracy.
+Business Impact
+Enhanced Student Engagement: Providing immediate feedback on student responses can foster a more engaging learning environment.
+Improved Learning Outcomes: Detailed analytics can aid educators in understanding student learning patterns and identifying areas where students struggle.
+Cost Savings: Automating the conversion of audio to text and the generation of analytics can significantly reduce manual labor costs.
+Scalability: The use of scalable technologies allows the system to handle increasing volumes of student responses without compromising performance.
+Data Insights: The system generates valuable data insights, including sentiment scores, readability metrics, and named entity recognition counts.
+Customer Satisfaction: A seamless, efficient experience for both students and educators can enhance customer satisfaction.
+This project is aligned with the organization’s strategic goals, and the business impact analysis will ensure that potential disruptions are identified and managed effectively.

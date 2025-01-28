@@ -1,0 +1,33 @@
+Design and develop solution to anomaly detection classification problems
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT Consulting
+Services:
+Software, Consulting
+Organization Size:
+100+
+Project Description
+We need to create a notebook with solutions to binary classification-related anomaly detection problems. We need to use machine learning and deep learning models which have greater than 90% accuracy.
+Our Solution
+We created a notebook for anomaly detection. We used 10 to 15 machine learning and deep learning models but only  3 different types of auto encoder models that were giving greater than 90% accuracy. We trained all 3 models on one classification data which have anomalies and evaluated trained models on test data.
+Project Deliverables
+A notebook that has solutions for anomaly detection related classification problems and accuracy should be above 90%.
+Tools used
+Google colab notebooks, Tensorflow, Google drive
+Language/techniques used
+Python programming language, Machine learning, Deep learning, Data analysis and Data visualization.
+Models used
+Auto Encoder and Variational Auto Encoder
+Skills used
+Python, Data Analysis, Data visualization, Machine learning, Deep learning.
+Databases used
+MS Excel
+What are the technical Challenges Faced during Project Execution
+Most of the anomaly detection models work with regression type data and this problem was classification problem so we need to deal with classification data.
+Getting high accuracy is also a tough challenge for us because there are only a few models which work well on anomaly detection related classification problems.
+How the Technical Challenges were Solved
+So we have limited models for this problem so we used only classification models like Autoencoders, Isolation forest and one class svm.
+Only Autoencoder was giving high accuracy so we worked with different types of autoencoders like variational autoencoder and normal autoencoder.
+Project Snapshots

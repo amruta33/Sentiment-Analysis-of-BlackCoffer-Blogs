@@ -1,0 +1,43 @@
+Marbles Stimulation using python
+Client Background
+Client:
+A leading consulting firm in the USA
+Industry Type:
+IT Consulting
+Services:
+Consultanting
+Organization Size:
+100+
+Project Objective
+For all 4 cases, use a random number generator that will give you numbers between 1 & a million [1,000,000].  Whatever generator you use, make sure to adjust the numbers so that they are between 1 & 1,000,000 distributed randomly.
+For all tasks, we will have 5 colors, for example in Task 1, when the random number selected is between 1 & 5857 choose a bright color that is easily visible [I have called it Br. Clr. 1], for numbers between 5858 & 8678 choose another bright color [Br. Clr. 2], for numbers between 8679 & 11500 choose B (Blue), for numbers between 11501 & 50,000 choose R (Red), and > 50,000 choose G (Green). Simulate these 4 Task scenarios and represent them in a Table (1000 x 32) and collect statistics at the end. Replicate the simulation exercises for each Task with 3 different initial seed numbers. Likewise for 16 other Tasks.
+Our Solution
+Task involves creating 20 excel files running a Python Script in Jupyter Notebook which contains certain integer ranges indicating certain values and some other criteria the Random number range [1 to 1 million].
+There are 20 Different tasks which have different conditions based on which need to form. Simulate these 20 Tasks and represent them in a Table (1000 x 32) and collect statistics at the end. Replicating the simulation exercises for each Task with 3 different initial seed numbers.
+Then using the Find and Replace tab of excel to make it in the correct format with proper color. Data Representation in particular format and formatting colors, Text based on condition passed within excel.
+Project Deliverables
+Excel File
+Tools used
+JupyterNB
+Sublime Text
+MS Excel
+Language/techniques used
+Python
+Models used
+No Software model is being Used to Solve this Project
+Skills used
+Python programming
+MS Excel Formatting
+Databases used
+No database were used stored complete data in MS Excel
+Web Cloud Servers used
+No cloud servers were used for this project
+What are the technical Challenges Faced during Project Execution
+Formatting Excel Files
+How the Technical Challenges were Solved
+Formatting Excel Files
+Discovered a lot of Shortcuts Available within Excel to deal with Data Representation in particular format and learned about formatting colors, Text based on condition passed within excel.
+Replication and Selecting Rows and Columns with shortcuts and in simplest way possible, transposing selected data and many more.
+Project Snapshots
+Figure 1: Sample Output File for Task 12 stimulation 3
+In total there were 16 conditional tasks all of them had 3 stimulation which needed to be performed.

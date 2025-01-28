@@ -1,0 +1,54 @@
+Analytical solution for a tech firm
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Services:
+Consulting
+Organization Size:
+100+
+The Problem
+The client’s organization had a project that matches URLs up using TF-IDF algorithm.
+The script threw some errors and resolving these errors was the immediate ask.
+The client also required us to adjust the script for better accuracy and faster computation.
+Our Solution
+R&D on the code developed
+Find & List bugs
+Solve the Bugs
+Find and get the best matching algorithm implemented.
+Check and compare the existing matching algorithm implemented for accuracy.
+if not check of other solution – ngrams or fuzzy logic
+Meet the expected output
+Deliverables
+Fully functional code
+Solution & Documentation
+Support
+Tools used
+Google spreadsheets
+Microsoft Excel
+Google Colaboratory
+Language/techniques
+Python
+Models used
+TF-IDF
+BERT
+Ngrams
+Flair Embeddings
+Rapid Fuzz
+Skills used
+Problem-solving
+Communication
+Data Modelling
+Data Pipelining
+Python Coding
+Databases used
+Google spreadsheets
+What are the technical Challenges Faced during Project Execution
+Bugs on the model used by the client was fairly competent using pretrained libraries
+The accuracy for the bug free code on the models used by the client was shaen once the model ran on a different set of data input
+How the Technical Challenges were Solved
+A vanilla code to execute the same logic while fine tuning the matching algorithm was written in order to over come the shortcomings of the pretrained model bugs
+The data pre-processing was done manually in order to transform every instance of an input into better readable format to be able to go into the model and get best matching accuracy possible in the given timeframe of execution of the code
+Business Impact
+Helped the client to perform the matching process with maximum accuracy and lowest cost on code, by implementing manually written vanilla code from scratch to utilise the matching algorithm.

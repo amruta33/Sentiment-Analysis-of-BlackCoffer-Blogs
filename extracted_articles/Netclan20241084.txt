@@ -1,0 +1,38 @@
+Data Transformation
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+Retail
+Services:
+Retail business
+Organization Size:
+100+
+Project Objective
+The objective of this project was to convert dirty JSON data present in a CSV file to a readable CSV file. The CSV file contained data in JSON format, which was split into columns in an Excel file, making it hard to read. The client wanted the data to be extracted and converted into a readable format to perform further analysis on it.
+Project Description
+Our client had provided us with a CSV file that contained data in JSON format, which was split into columns in an Excel file. The data was hard to read and understand, making it difficult to perform any analysis on it. Our objective was to extract the data, convert it to a readable format, and validate the JSON file to ensure that it was in a correct format. Finally, we had to convert the JSON data into a CSV file that could be easily read and analyzed.
+Our Solution
+To extract the data, we used Python programming language and Pandas library. We extracted every piece of text present in the Excel sheet using Pandas and converted it into a readable text format. We then validated the JSON file with a JSON validator website to ensure that it was in the correct format. Finally, we used Pandas again to convert the JSON data into a CSV file that could be easily read and analyzed.
+To perform the conversion, we used Jupyter Notebook, Json Validator, and Microsoft Excel.
+Project Deliverables
+The final deliverable was a readable CSV file that contained the converted data from the original JSON format.
+Tools used
+Jupyter Notebook, Json Validator, and Microsoft Excel.
+Language/techniques used
+Python programming language and Pandas library.
+Skills used
+Python programming and Pandas data manipulation.
+What are the technical Challenges Faced during Project Execution
+The main technical challenge we faced during the project was dealing with dirty JSON data present in a CSV file that was split into columns in an Excel file. This made it hard to read and understand, and required extra effort to extract the data and convert it into a readable format.
+How the Technical Challenges were Solved
+We solved the technical challenges by using Python programming language and Pandas library to extract and manipulate the data. We validated the JSON data using a JSON validator website to ensure that it was in the correct format. Finally, we used Pandas to convert the JSON data into a readable CSV file that could be easily analyzed.
+Business Impact
+The business impact of this project was that the client was able to perform further analysis on the extracted data in a readable format, which was previously hard to read and understand.
+
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, or Skype or Whatsapp? Please recommend, what would work best for you.

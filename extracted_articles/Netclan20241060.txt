@@ -1,0 +1,27 @@
+CRM, Monday.com via Zapier to Power BI Dashboard
+Client Background
+Client:
+A leading solar panel firm in the USA
+Industry Type:
+Energy
+Services:
+Solar Panel
+Organization Size:
+200+
+Project Description
+Mohsin has Solar Panel Company. He has setup CRMs for that. He wanted to use CRMs data and want to visualize the leads in PowerBI
+Our Solution
+First, we check CRMs thoroughly and understand the work culture of his company. It was not easy to fetch data into PowerBI using API key. To fetch new leads from CRMs we used Zapier. The limitation of Zapier is it cannot fetch historical data into spreadsheet. So we download data from CRMs and fetch it into spreadsheet. For new leads we created zaps for every instance. After that we connect the spreadsheet with PowerBI and clean the data accordingly. Using that data, we build KPIs according to client need.
+Tools used
+API , Zapier , Spreadsheet , PowerBI
+Language/techniques used
+M language , DAX
+Skills used
+API , M language , DAX , PowerBI
+What are the technical Challenges Faced during Project Execution?
+First challenge was to fetch data from CRMs using API key. Data we were getting was uncleaned and were not able to fetch all data. If there were multiple pages in the CRMs we will not be able to fetch all data from the pages.
+How the Technical Challenges were Solved
+Technical challenge in this project was to extract data from CRMs. So for that we used Zapier connector from CRMs to spreadsheet. But there was some limitation with Zapier that it will not fetch the historical data of our CRMs. So to solve that we download all historical data from CRMs and append it to the spreadsheet we were using. We fetch new leads to our spreadsheet using Zapier. By doing this now we have all the data historical and new lead which will be pushed by Zapier.
+Then we fetch the data to our PowerBI and do some cleaning in data. By using cleaned data, we build the KPIs for our client according to there requirements.
+Business Impact
+Client will be able keep track on his company data on PowerBI and it helps them to make decisions accordingly.

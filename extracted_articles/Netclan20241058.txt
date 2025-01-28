@@ -1,0 +1,33 @@
+Data from CRM via Zapier to Google Sheets (Dynamic) to PowerBI
+Client Background
+Client:
+A leading solar panel firm in the USA
+Industry Type:
+Energy
+Services:
+Solar Panel
+Organization Size:
+500+
+The Problem
+Solar Panel organization from America wants to keep track of sales data. They want to see the leadership dashboard of their organization in terms of sales. They also want to keep track of their campaigns and leads generated from sources of those campaigns. They want to keep track of sales data from different sources.
+Our Solution
+First, we fetch the data from CRM to PowerBI. Clean the data of CRM using DAX and then perform calculations on the data. Using cleaned data, we build KPI on PowerBI.
+Solution Architecture
+To complete the project, we follow the following data flow pipeline:
+Data from CRM 🡪 Zapier 🡪 Google Sheet (Dynamic) 🡪PowerBI
+Language/techniques used
+PowerBI, DAX Language
+Skills used
+CRM, Zapier , PowerBI, Google Sheet
+What are the technical Challenges Faced during Project Execution
+Challenges Faced during the Project Execution :
+Fetching the data from CRM
+Unclean Data
+Merging the Data
+How the Technical Challenges were Solved
+Solution:
+To Fetch the data from CRM. We used Zapier. It is connector between two applications so that whenever a particular incident happen it will populate into another application. We use Zapier to connect CRM and Google sheets so that whenever a new lead will change or modified data will be stored into google sheets.
+Data in google sheets was uncleaned. First, we connect the Google sheet with PowerbI then perform EDA to clean the data using DAX language.
+Using merging of two tables by ONE-ON-ONE schema we solve duplicate entries of a particular lead in PowerBI.
+Business Impact
+Using this Dashboard client can make important decisions like from which campaign they are getting a greater number of leads and out of those leads how many are actually a Sale. They can keep track of their sales leadership of employee of the month in term of sales.

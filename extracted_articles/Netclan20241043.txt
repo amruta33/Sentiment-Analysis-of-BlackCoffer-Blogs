@@ -1,0 +1,61 @@
+Building Custom TFLite Models and Benchmarking on VOXL2 Chips
+Client Background
+Client:
+A leading tech consulting firm in the USA
+Industry Type:
+IT
+Products & Services:
+IT Consulting, IT Support, SaaS
+Organization Size:
+100+
+The Problem
+The client aimed to explore the development and deployment of custom TensorFlow Lite (TFLite) models on VOXL2 hardware. The goal was to leverage the advanced GPU and NPU acceleration capabilities of VOXL2 to optimize and benchmark these models for efficient on-device inference. This project was not only about showcasing the potential of VOXL2 in enhancing machine learning performance but also about contributing to the broader understanding of deploying custom models on edge devices.
+Our Solution
+Load Base Model in ONNX Format: Started with loading a base model like YOLOv7 or YOLOv8 in ONNX format.
+Convert ONNX Models to TFLite Format: Used the onnx-tf parser for conversion.
+Quantize Models for VOXL2 Chips: Quantized models to float16 format for compatibility with VOXL2 chips.
+Clone VOXL SDK Developer Environment: Cloned the VOXL SDK developer environment and set up ADB.
+Connect VOXL2 Chip to Your Computer: Connected the VOXL2 chip and verified the connection.
+Access VOXL Chip Shell: Accessed the shell of the VOXL chip for model deployment and configuration.
+Create DEB Packages with Custom TFLite Models: Cloned the voxl-tflite-server repository, copied TFLite files, and configured the model.
+Use Custom DEB Package on VOXL2: Deployed the DEB package and configured the VOXL chip to run the model.
+Run voxl-tflite-server: Executed voxl-tflite-server to start the inference process.
+Verify Model Execution: Ensured the model runs without errors on the VOXL chip.
+Solution Architecture
+Steps were followed as referred in the Modal AI documentation. No solution architecture was required here.
+Deliverables
+A Python script implementing the CVRP-TW model.
+Test data and scripts for simulating different scenarios.
+Documentation explaining how to use the model and interpret the results.
+Tech Stack
+Tools used
+ONNX
+TensorFlow Lite
+VOXL SDK
+Android Debug Bridge (ADB)
+Language/techniques used
+Python
+Shell scripting
+Models used
+YOLOv7 or YOLOv8 in ONNX format
+Mobilenet
+Skills used
+Machine Learning model conversion and optimization
+Edge device deployment and configuration
+Performance benchmarking
+What are the technical Challenges Faced during Project Execution
+Converting ONNX models to TFLite format for compatibility with the TFLite runtime on VOXL chips.
+Quantizing models to float16 format for compatibility with the GPU and DPU delegations on VOXL chips.
+Setting up the VOXL SDK developer environment and ensuring ADB is correctly configured.
+Deploying custom TFLite models on the VOXL chip and configuring it to run the models.
+Benchmarking the model using the voxl-logger tool and encountering issues with the latest SDK build.
+How the Technical Challenges were Solved
+Used the onnx-tf parser for model conversion, ensuring compatibility.
+Quantized models to float16 format, improving inference speed and reducing model size.
+Cloned the VOXL SDK developer environment and followed the documentation to set up ADB.
+Cloned the voxl-tflite-server repository, copied TFLite files, and configured the model for deployment on the VOXL chip.
+Consulted with the VOXL forums and developers for alternative methods of benchmarking due to SDK build issues.
+Business Impact The successful deployment and benchmarking of custom TFLite models on VOXL2 chips have significantly enhanced the client’s ability to optimize machine learning performance on edge devices. By leveraging the advanced GPU and NPU acceleration capabilities of VOXL2, the client has been able to achieve efficient on-device inference, showcasing the potential of VOXL2 in the machine learning domain.
+Business Impact
+This project has not only contributed to the broader understanding of deploying custom models on edge devices but has also provided valuable insights into the performance of these models on VOXL chips. The process of overcoming technical challenges has further solidified the client’s confidence in the capabilities of VOXL2 and the potential of deploying custom TFLite models on edge devices.
+Overall, the Manu B VOXL project has been a success, demonstrating the potential of VOXL2 in enhancing machine learning performance on edge devices and contributing to the broader understanding of deploying custom models on edge devices. The project has highlighted the importance of overcoming technical challenges and the value of comprehensive guides for deploying and benchmarking TFLite models on VOXL chips.

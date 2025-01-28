@@ -1,0 +1,43 @@
+Analyzing the Impact of Positive Emotions and Pandemic Severity on Mental Health and Resilience Among Entrepreneurs: Insights and Predictive Modeling
+Client Background
+Client:
+A leading research institution in the USA
+Industry Type:
+R&D
+Products & Services:
+Research, Higher Education
+Organization Size:
+20000+
+The Problem
+Faced challenges in understanding the impact of positive emotions and perceived severity of the pandemic on mental health and resilience among entrepreneurs. The goal was to provide a detailed analysis and predictive models to help comprehend these interactions and their implications.
+Our Solution
+We developed a comprehensive solution involving descriptive, inquisitive, and predictive analytics. This included formulating hypotheses, performing exploratory factor analysis, designing predictive models, and visualizing interactions through graphs and tables. Our solution aimed to provide actionable insights into the relationships between positive emotions, perceived severity of the pandemic, and mental health.
+Solution Architecture
+ Data collection and preprocessing
+ Exploratory Factor Analysis (EFA) to identify key indicators
+ Regression analysis to understand relationships between variables
+ Structural Equation Modeling (SEM) to visualize and quantify interactions
+ Creation of detailed tables and figures for publication
+Deliverables
+ Descriptive statistics table
+ Fit statistics table for hypothesized and modified models
+ SEM results with coefficients and interaction effects
+ Visualizations of interactions between resiliency, perceived severity of the pandemic, positive emotions, and mental health
+ Comprehensive report with charts, tables, results, and methodology
+Tech Stack
+Tools used
+Jupyter Notebook, Python Libraries
+Language/techniques used
+Python, Exploratory Factor Analysis, Regression Analysis,
+Models used
+Ordinary Least Squares (OLS), Factor Analysis, Structural Equation Model (SEM)
+Skills used
+Data preprocessing, feature engineering, statistical analysis, model evaluation, data visualization.
+Databases used
+CSV files containing survey data.
+What are the technical Challenges Faced during Project Execution
+We faced challenges with missing data, which affected the accuracy of the models. Integrating different data sources and ensuring data quality were also significant hurdles.
+How the Technical Challenges were Solved
+We used data imputation techniques to handle missing values and implemented robust data cleaning processes. For integration, we used efficient ETL (Extract, Transform, Load) pipelines to ensure seamless data flow.
+Business Impact
+The project provided Jean Kabongo with valuable insights into the factors affecting entrepreneurial resilience during the pandemic. The detailed analysis and predictive models helped in understanding the key drivers of mental health and provided a foundation for further research and intervention strategies.

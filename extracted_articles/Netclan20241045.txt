@@ -1,0 +1,52 @@
+Efficient Coach Allocation System for Sports Coaching Organization
+Client Background
+Client:
+A leading sports tech firm in the USA
+Industry Type:
+Sports
+Products & Services:
+IT Consulting, Sports SaaS, Sports Management
+Organization Size:
+100+
+The Problem
+The sports coaching organization, Esra Salih, faced the challenge of efficiently allocating coaches to various programs across different schools. The allocation process was previously manual and inefficient, leading to inadequate coach-program matching and inefficient use of coaches’ time. The organization needed a system that could automatically assign coaches to programs based on specific criteria such as coach availability, program preferences, and the number of students enrolled in each program.
+Our Solution
+We developed a custom system that divides the academic year into different terms and assigns coaches to programs based on a set of criteria. The system filters coaches based on their preferences and allocates them to programs efficiently. It ensures that coaches do not have to travel excessively and that their total work time does not exceed a certain threshold. Once a coach is assigned to a program, they are allocated for subsequent program days, ensuring consistency.
+The development process will involve several stages:
+Understanding the data: We’ll analyze the data to identify the relevant variables and constraints. These may include the locations of installations, the duration of installations, the availability of team members, and customer preferences.
+Defining the objective and constraints: The objective will be to minimize the total travel time or maximize the number of installations completed within a given time frame. The constraints will include the geographical distances between locations, the working hours of team members, and the specific requirements of each installation.
+Implementing the algorithm: We’ll use an optimization algorithm, such as the Traveling Salesman Problem (TSP) solver, to find the optimal routes. The algorithm will consider all possible routes and choose the one that best meets the objectives while adhering to the constraints.
+Running simulations: To ensure the feasibility of the model, we’ll run simulations using different scenarios and adjust the parameters as needed.
+Saving the output: The final output will be the suggested schedules, which can then be reviewed and approved by the relevant parties.
+In terms of technology, we’ll use Python, a popular language for data analysis and machine learning. We’ll also use the Anaconda distribution, which provides a powerful environment for scientific computing and data analysis.
+Solution Architecture
+The system is built on a custom logic implementation that filters programs for a particular date and checks the past history of the program to see if a coach was assigned before. If not, it allocates a new coach based on their availability and feasibility to reach the program location in time. A filtered list of coaches based on preferences like Age-Group and Level is created to aid this process.
+Deliverables
+A Python script implementing the CVRP-TW model.
+Test data and scripts for simulating different scenarios.
+Documentation explaining how to use the model and interpret the results.
+Tech Stack
+Tools used
+Python: The primary programming language.
+Anaconda: The Python distribution used for data analysis and machine learning.
+Visual Studio Code: The code editor used during development.
+Google App Script for deployment integrated with Google Sheets
+Language/techniques used
+Python
+Models used
+Constrained Vehicle Routing Problem with Time Windows (CVRP-TW)
+Skills used
+Data Analysis
+Machine Learning
+Optimization Algorithms
+Python Programming
+Databases used
+CSV, Google Sheets: The data will initially be stored in a CSV file, which can be easily imported into Python using libraries like pandas.
+What are the technical Challenges Faced during Project Execution
+The main challenge was developing a custom logic implementation that could efficiently allocate coaches to programs based on specific criteria.
+Another challenge was ensuring that the system could handle scenarios where multiple coaches were required for a program.
+How the Technical Challenges were Solved
+The first challenge was addressed by developing a custom logic implementation that filters programs for a particular date and checks the past history of the program to see if a coach was assigned before. If not, it allocates a new coach based on their availability and feasibility to reach the program location in time.
+The second challenge was addressed by initially focusing on assigning a single coach and gradually introducing the complexity of multiple coaches after the basic system was functional.
+Business Impact
+The implementation of the proposed solution has significantly improved the efficiency of the coach allocation process. The system has automated the allocation process, saving valuable time and resources that were previously spent on manual updates. It has also ensured that coaches are allocated in a way that minimizes travel and ensures that their total work time does not exceed a certain threshold.

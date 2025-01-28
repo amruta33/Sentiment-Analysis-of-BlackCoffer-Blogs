@@ -1,0 +1,38 @@
+Building a Physics-Informed Neural Network for Circuit Evaluation
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+Retail
+Services:
+Consulting
+Organization Size:
+100+
+Project Objective
+The objective of this project was to build a Physics Informed Neural Network (PINN) using TensorFlow, which could evaluate circuits based on the parameters provided through a MATLAB simulation.
+Project Description
+Mohamed provided us with a dataset generated from a MATLAB simulation of a circuit, consisting of various input parameters and the corresponding circuit performance outputs. We were tasked with developing a machine learning model that could accurately predict circuit performance based on the input parameters, while also incorporating the underlying physics principles that govern circuit behavior.
+Our Solution
+Our team utilized Jupyter Notebook, Google Colab, Octave, and MATLAB to build the PINN. We used TensorFlow models to build the neural network and Microsoft Excel to clean and preprocess the data. Our team employed Python programming, TensorFlow, Pandas, and MATLAB skills to build the PINN. We did not use any databases for this project, nor did we use any web/cloud servers.
+Project Deliverables
+The final deliverable was a functional PINN capable of evaluating circuits based on the provided parameters.
+Tools used
+Our team used Jupyter Notebook, Google Colab, Octave, MATLAB, and Microsoft Excel.
+Language/techniques used
+The primary languages and techniques we used were Python programming, TensorFlow, and MATLAB.
+Models used
+We used TensorFlow models to build the neural network for the PINN.
+Skills used
+Our team utilized Python programming, TensorFlow, Pandas, and MATLAB skills to build the PINN.
+Databases used
+We did not use any databases for this project.
+Web Cloud Servers used
+We did not use any web/cloud servers for this project.
+What are the technical Challenges Faced during Project Execution
+The project was very challenging since our team did not have a background in electrical engineering. It was difficult to understand the physics behind the circuit evaluation, and we faced issues when using MATLAB to provide data for the project.
+How the Technical Challenges were Solved
+We worked with the client to gain a better understanding of the physics behind the circuit evaluation. We also worked with MATLAB experts to help us better understand how to provide data for the project.
+Business Impact
+The PINN we built for Mohamed Zamil allowed for efficient circuit evaluation and improved the overall accuracy of the evaluation process.
+
+Project Video

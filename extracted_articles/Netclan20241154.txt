@@ -1,0 +1,49 @@
+Marketing Tool to Notify Leads to Clients over Email and Phone
+Client Background
+Client:
+A leading Marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+Prepare a daily report for data from Local Service Ads dashboard and email to client.
+Project Description
+Extracts data from the LSA dashboard for the last 24 hours.
+The data is sent to the client email in the form of a daily report using SendGrid.
+The script runs every morning and is deployed to Heroku by the name “lead-details-to-email”.
+The data is collected only for the companies that are not marked in red in the “Missed Messages Notification Automation – Master File” sheet.
+The following data is uploaded:
+Number of Leads
+Cost Per Lead
+Lead Type
+Dispute amount to be approved
+Dispute amount approved
+Cost per Call
+Our Solution
+Use LSA API to extract data.
+Clean the data to make it readable and dispose the data not needed.
+Get the email id of each company from the given Sheet
+Send an email to the client using SendGrid
+Deploy to Heroku
+Project Deliverables
+A working deployed automated tool that runs everyday in the morning hours and sends a report to the client. Tool is monitored everyday.
+Tools used
+Heroku
+LSA API
+SendGrid
+Sheets API
+Language/techniques used
+Python
+Skills used
+Data extraction, cleaning, and summarising
+Databases used
+Data is not stored and is sent directly to the client
+Web Cloud Servers used
+Heroku
+What are the technical Challenges Faced during Project Execution
+Ensuring a company’s data does not go to another company
+How the Technical Challenges were Solved
+Testing on multiple dummy email ids

@@ -1,0 +1,34 @@
+Design & Develop BERT Question Answering model explanations with visualization
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT Consulting
+Services:
+Software, Consulting
+Organization Size:
+100+
+Project Description
+We need to use a pre-trained bert question answering model and create a notebook that has explanations of model’s working with some visuals of bertviz, allennlp and gradient values.
+Our Solution
+We created a notebook first and explained the model with model view and head view visuals of bertviz library. It gives similarity between words so we can easily find related words.
+We used the allennlp library and created bar charts and heatmaps to show higher and lower attention words. It means when it finds question related words in the context it gives higher value to those words and if words are not related it gives lower values.
+We used a gradient based method to show higher and lower gradient values word according to question text and created bar charts and text color charts to show higher gradient values.
+Project Deliverables
+A notebook which has an explanation of the bert question answering model using some visualization.
+Tools used
+Google colab notebooks, Tensorflow, Bertviz, Allennlp, Transformers
+Language/techniques used
+Python programming language, Deep learning, NLP, Data Visualization
+Models used
+Pretrained bert-base-uncased model and distilbert model (both trained on squad2 dataset)
+Skills used
+Data visualization, Deep learning, NLP, python
+What are the technical Challenges Faced during Project Execution
+We need to use the best pre-trained model which can give good results on different questions and answers.
+We were working on text data so we need to use charts which can clearly show differences between higher attention and lower attention value words.
+How the Technical Challenges were Solved
+For best pretrained we tried different Bert’s pretrained models like distilbert(trained on squad dataset), distilbert(trained on squad2), bert base uncased, bert large and roberta base.
+Among these models we kept the best one.
+For solving charts related issues we used heatmap chart, bar chart with dark and light colors and text coloring method.
+Project Snapshots

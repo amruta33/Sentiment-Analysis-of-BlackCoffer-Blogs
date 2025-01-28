@@ -1,0 +1,48 @@
+CallRail, Analytics & Leads Report Alert
+Client Background
+Client:
+A leading Marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+Prepare an annual report for the companies and upload it to database. Data is from callrail and contains call analytics.
+Project Description
+Extracts data from CallRail database for the last 1 year.
+The data is uploaded to BigQuery database “lead_report_alert_callrail”
+The script runs once a year and is deployed to Heroku by the name “lead-report-alert”.
+Currently, the script is programmed to run for only 2 companies (on a trial basis) – Capital Law Firm and Wilshire Law Firm.
+The following data is uploaded:
+Company Name
+No. of calls answered
+No. of calls missed
+No. of calls abandoned
+No. of calls to voicemail
+Total Calls
+Our Solution
+Use CallRail API to get data from database.
+Set time window to be one year.
+Filter out excess data
+Prepare report
+Upload to BigQuery
+Project Deliverables
+A working deployed automated tool that runs once a year in the morning hours and uploads the data to BigQuery. Tool is in prototype phase and hence is operational for 2 companies.
+Tools used
+Heroku
+CallRail API
+BigQuery
+Language/techniques used
+Python
+Skills used
+Data extraction, cleaning and summarising
+Databases used
+BigQuery –  lead_report_alert_callrail
+Web Cloud Servers used
+Heroku
+What are the technical Challenges Faced during Project Execution
+Working on a large amount of data since a year’s data contains hundred of thousands of records
+How the Technical Challenges were Solved
+Optimized code for faster processing.

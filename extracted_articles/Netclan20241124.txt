@@ -1,0 +1,46 @@
+Microsoft Azure chatbot with LUIS (Language Understanding)
+Client Background
+Client:
+A leading retail firm in the USA
+Industry Type:
+Retail
+Services:
+e-commerce, retail business
+Organization Size:
+100+
+Project Objective
+To create an advanced chatbot using Microsoft Azure cognitive service to take orders from customer on behalf of a pizza restaurant and give order summary as end result to the user.
+Project Description
+The project uses MS Azure LUIS service for language understanding to receive order details from a customer and provide an order summary. Also display various menu options to the customer in a dynamic method.
+Our Solution
+Our solution is to create a chatbot on MS Azure platform using their LUIS service in bot-framework composer environment. Use dynamic hero cards to display menu so that user can get a better experience.
+Project Deliverables
+Chatbot
+Tools used
+Bot Framework composer
+Bot emulator
+MS Azure LUIS services
+Language/techniques used
+Bot framework composer
+Natural language processing
+Models used
+MS Azure LUIS
+MS Azure QnA
+MS Azure speed SDK
+Skills used
+Deep learning
+Web development
+Cloud tech
+Web Cloud Servers used
+Microsoft Azure web platform
+What are the technical Challenges Faced during Project Execution
+Monthly quota for LUIS authoring service was reached
+Tracking multiple items ordered by user
+Accessing relevant images for each menu item
+How the Technical Challenges were Solved
+Switching to a more suitable pricing tier which would have to eventually switch to when move onto production phase
+Creating custom functions and intents for different trackers
+Using open license images from internet
+Project Snapshots
+Project website url
+Demo

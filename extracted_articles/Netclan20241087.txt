@@ -1,0 +1,82 @@
+Return on Advertising Spend Dashboard: Marketing Automation and Analytics using ETL and Dashboard
+Client Background
+Client:
+A leading ad firm in India
+Industry Type:
+Ads
+Services:
+Ads, Marketing, and Promotions
+Organization Size:
+100+
+The Problem
+The main problem that was addressed in this project was the manual calculation of Return on Advertising Spend (ROAS) due to the lack of a centralized platform for running ads. The client’s ads were spread across multiple revenue generating platforms, including Google Adsense, Adx, and Ezoic, while the spending was managed through the Google Ads Platform. At that time, the client lacked a centralized dashboard or website that could effectively calculate ROAS by integrating revenue and cost streams. This fragmentation made it challenging for the client to track and evaluate the effectiveness of their advertising campaigns. Therefore, a comprehensive solution was developed and implemented, providing a centralized platform for calculating ROAS, aligning revenue and cost data from various sources, and enabling informed decision-making regarding advertising investments.
+Our Solution
+We developed a comprehensive solution to address the challenges faced by the client in calculating Return on Advertising Spend (ROAS) and centralizing their advertising data. The solution involved collecting data from four different APIs: Google Ads API for spending data, Google Adsense API, Ad Manager API, and Ezoic data for revenue data. To ensure compatibility, we utilized an Extract, Transform, Load (ETL) tool to convert the data received from each API, which was in different formats, into a standardized format storing them Pandas Dataframe for both revenue and spending data.
+The transformed data was then stored in a Postgres database for easy access and management. To automate the data extraction process, we implemented an ETL script that runs twice daily via cronjob on a Digital Ocean VM, ensuring the latest data is always available.
+Moreover, we designed a backend API using the Flask framework. This API fetched the required data from the Postgres DB, allowing users to retrieve relevant information efficiently.
+Finally, we implemented a ROAS Dashboard frontend to display the calculated ROAS using the fetched values. The dashboard provided a visually appealing and intuitive interface for users to track and monitor their advertising performance. With our solution in place, the client could now easily monitor ROAS over time, access consolidated data, and make informed decisions regarding their advertising investments.
+Solution Architecture
+The solution architecture involved a multi-step process to address the challenges faced by the client in calculating ROAS and centralizing their advertising data. Data was collected from various APIs, including Google Ads API, Google Adsense API, Ad Manager API, and Ezoic data, and transformed into a standardized format using an ETL tool.
+The transformed data was stored in a Postgres database, and a backend API was developed using the Flask framework to fetch the required data. The calculated ROAS was then displayed on a Next Js Dashboard, providing users with an intuitive interface to track and analyze their advertising performance.
+Deliverables
+ETL Tool
+Deployment on Digital Ocean
+Backend API
+Next js backend/ frontend
+ROAS Dashboard
+Tools used
+Google Ads API
+Google AdSense API
+Adx API
+Ezoic API
+Python 3.9
+Jupyter Notebook
+Flask
+Digital Ocean Droplet
+Next Js frontend/backend Stack
+Vuexy Template for ROAS Dashboard
+Language/techniques used
+Python 3.9
+Flask API
+DigitalOcean Droplet
+Functional Programming in Python
+ETL Tool
+Skills used
+Python
+Git
+Deployment
+Data Engineering
+Web Development using Next js
+Databases used
+We used
+PostgreSQL
+database for the project.
+Web Cloud Servers used
+Digital Ocean Droplet
+What are the technical Challenges Faced during Project Execution
+Some of the technical challenges encountered were:
+Ensuring data integrity during the transformation process.
+Deployment of Docker image on VM
+Setting up an automated ETL pipeline.
+Adding SSL certificate to backend API.
+How the Technical Challenges were Solved
+1. Ensuring data integrity: Implemented checks, cleansing, and validation to maintain the accuracy and reliability of the data.
+2. Docker image deployment on VM: Configured VM to support Docker Image for ETL and deployed the image for seamless execution.
+3. Setting up automated ETL pipeline: Automated data extraction, transformation, and loading processes for efficient data management via cronjob.
+4. Adding SSL certificate to backend API: Secured backend API with SSL certificate, enabling encrypted communication for enhanced data protection.
+Business Impact
+The implemented solution had a significant positive impact on the client’s business. By providing a centralized platform for calculating ROAS and integrating data from multiple revenue-generating platforms, the client gained valuable insights into the effectiveness of their advertising campaigns. The availability of real-time, consolidated data enabled informed decision-making regarding advertising investments. The user-friendly interface of the RAOS Dashboard allowed the client to easily track and monitor their advertising performance, leading to improved campaign optimization and potentially higher returns on advertising spend. Overall, the solution streamlined the client’s advertising operations, resulting in increased efficiency and improved business outcomes.
+Project Snapshots
+Here are the project snapshots:
+Login Screen
+Landing page with first selected campaign in the list:
+Using Date Picker
+Search Functionality
+Revenue Breakdown by Platform
+Show/Hide Left Sidebar
+Switching Site’s theme to Light Mode
+Settings/Log Out Menu
+Change Email/Password
+Project Website URL:
+
+Project Video

@@ -1,0 +1,45 @@
+Enhancing Data Collection for Research Institutions: Addressing Survey Fatigue and Incorporating Verbal Communication for Richer Insights
+Client Background
+Client:
+A leading IT & tech firm in the USA
+Industry Type:
+IT
+Products & Services:
+IT Consulting, IT Support, SaaS
+Organization Size:
+200+
+The Problem
+Our client, a leading research institution, faced challenges in collecting rich, engaging data through traditional survey methods. Participants often found surveys tedious and uninteresting, leading to low response rates and limited insights. Additionally, the client sought a way to accommodate participants who preferred verbal communication over written responses.
+Our Solution
+To address these challenges, proposed integrating Generative AI technology into the Qualtrics platform. This would allow for dynamic, AI-driven conversations with participants, making the survey experience more interactive and personalized. Additionally, we suggested implementing speech-to-text functionality to cater to participants who preferred vocalizing their responses.
+Solution Architecture
+In solution involved integrating ChatGPT and Gemini AI models into the Qualtrics environment. Participants could engage in conversations with the AI either by typing or speaking their prompts. Speech inputs were processed using Gemini’s speech-to-text capabilities, enabling seamless interaction with the AI models.
+Deliverables
+Integration of ChatGPT and Gemini AI with Qualtrics
+Speech-to-text functionality for verbal responses
+Enhanced participant engagement and data collection capabilities
+Tech Stack
+Tools used
+Qualtrics,Chat-GPT
+Language/techniques used
+JavaScript, APIs
+Models used
+GPT-3.5
+Skills used
+Programming, AI Integration, Problem-solving, Communication, Adaptability, Testing, Project Management
+What are the technical Challenges Faced during Project Execution
+Real-time Integration:
+Achieving seamless real-time integration of AI models with Qualtrics proved challenging due to the asynchronous nature of the platforms.
+Speech-to-Text Accuracy:
+Ensuring accurate transcription of speech inputs posed a technical challenge, especially in noisy environments or with accented speech.
+How the Technical Challenges were Solved:
+How the Technical Challenges were Solved
+Simulated AI Model:
+To overcome real-time integration challenges, we implemented a simulated AI model that generated personalized responses based on user prompts.
+Enhanced Speech Processing:
+We fine-tuned Gemini’s speech-to-text capabilities to improve accuracy and robustness, enabling reliable transcription of verbal inputs.
+Business Impact
+Improved Participant Engagement:
+The implementation of AI-driven conversations led to higher participant engagement and increased survey completion rates.
+Richer Data Collection:
+Participants provided more detailed and nuanced responses, leading to richer datasets and deeper insights for the client’s research initiatives.

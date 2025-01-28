@@ -1,0 +1,36 @@
+Algorithmic trading for multiple commodities markets, like Forex, Metals, Energy, etc.
+Client Background
+Client:
+A Leading Trading Firm in the USA
+Industry Type:
+Finance
+Services:
+Trading, Consulting, Software
+Organization Size:
+100+
+The Problem
+A Trading site will have all the required features, allowing users to trade in multiple commodities markets, like Forex, Agriculture, Metals, Energy etc.
+Our Solution
+Designed the website with technical indicators, and the ability to trade in live market, plus allows the user to create his/her own strategy to backtest. Functionalities like all types of technical indicators:
+Trend following
+mean reversion
+relative strength
+volume
+momentum.
+Strategies are specific scripts, which are able to send, modify, execute, and cancel buy or sell orders and simulate real trading right on your chart. Backtesting is the process of recreating the work of your strategies on historical data, essentially all of your past strategic work. Forward testing allows for the recreation of your strategy work in real time, all while your charts refresh their data.
+Solution Architecture
+Deliverables
+A Fully functional trading platform that lets you customize technical indicators, create charts, and analyse financial assets. These indicators are patterns, lines, and shapes that millions of traders use every day. Platform designed is entirely browser-based, with no need to download a client. Allowing the user to use all types of indicators:
+Trend following
+mean reversion
+relative strength
+volume
+momentum.
+Tools used
+Numpy
+pandas
+Language/techniques used
+Python
+Business Impact
+Clients want a social media network, analysis platform, and mobile app for traders and investors. So we designed a website with all the client’s requirements, where traders, investors, educators, and market enthusiasts can connect to share ideas and talk about the market. By actively participating in community engagement and conversation, you can accelerate your growth as a trader, and your ability to trade in the live market, plus allows the user to create his/her own strategy to backtest. A Fully functional trading platform that lets you customize technical indicators, create charts and analyze financial assets. These indicators are patterns, lines, and shapes that millions of traders use every day. Platform designed is entirely browser-based, with no need to download a client. Allowing the user to use all types of indicators
+Project Snapshots

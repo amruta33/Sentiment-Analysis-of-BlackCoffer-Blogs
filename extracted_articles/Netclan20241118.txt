@@ -1,0 +1,45 @@
+Real-time dashboard to monitor infrastructure activity and Machines
+Client Background
+Client:
+A leading tech firm in Europe
+Industry Type:
+IT
+Services:
+Software Services
+Organization Size:
+30+
+Project Objective
+For the current project, we hope to develop a real-time dashboard (* it updates every several minutes). Currently, we have multiple Ubuntu machines that are sending messages every minute to Apache Pulsar.
+Project Description
+Developing a realtime updating dashboard to display the metadata of various machines on a server from pandio queue.
+The dahboard must display the count of “inactive” , “active” and “down” servers with a table displaying the details of all the machines in different color scheme for each type of server/machine.
+Our Solution
+We used Django framework to develop the dashboard as it didn’t require the ec2 instance to be active on machine which was the problem with using streamlit.
+For communication between webpage and fetched data we used django channel .
+We used django background task module to make the fetching run forever in background.
+Project Deliverables
+Real time updating Dashboard with separate color scheme for different types of machines.
+Storing the historical data in sqlite3 db.
+Tools used
+Django
+Web Channels
+D3 js
+Reddis server
+Skills used
+Python
+Django Framework
+Django web channels
+HTML/CSS + JS
+Databases used
+Django sqlite3 database.
+Web Cloud Servers used
+AWS
+What are the technical Challenges Faced during Project Execution
+Making the dashboard run forever using streamlit
+Data updation in realtime when using django channels
+How the Technical Challenges were Solved
+Switched the entire dashboard to django framework
+We redirected data to channels on local reddis server.
+Project Snapshots
+Project website url
+Development hosted URL

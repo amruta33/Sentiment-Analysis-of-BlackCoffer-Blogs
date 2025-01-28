@@ -1,0 +1,136 @@
+Google Data Studio Pipeline with GCP/MySQL
+Client Background
+Client:
+A leading IT firm in Europe
+Industry Type:
+IT
+Services:
+e-commerce, retail business, marketing, Consulting
+Organization Size:
+100+
+Project Objective
+Creating a Data Pipeline to sync live data from FieldPulse to Google Data Studio using GCP/MySQL.
+Project Description
+There is a Virtual Machine up and running and MySQL in Google Cloud(GCP). Get the following live data from FieldPulse to Google Data Studio(GDS) for making Business Dashboard in GDS –
+Job Data
+Tag Data
+Team Member Data
+Team Data
+Such that if data changes in FieldPulse , GDS Dashboard should update automatically.
+Our Solution
+For fetching data from FieldPulse –
+Data Pipeline (FieldPulse to GCP MySQL)
+:  We have created a Data Pipeline that uses web scraping to fetch data from FieldPulse. It makes a GET request to the FieldPulse API , and the API returns raw data. Convert this into json format then in Dataframe. Now , create new tables in GCP MySQL and insert/update the data accordingly.
+Insertion & Updation of Data :
+Insertion :
+If any data fetched from Fieldpulse is not present in their respective database table , then  insert that data in the table.
+Updation :
+If any data fetched from Fieldpulse is present in their respective database table , then update that data in the table.
+Deploy the above Data Pipeline in GCP VM instance
+:  Deploy the above data pipeline in GCP VM so that data gets updated every hour from FieldPulse to MySQL.
+For getting data from GCP MySQL to Google Data Studio(GDS) :
+Connecting GCP MySQL to Google Data Studio
+:  Connect GCP MySQL to GDS as follows –
+Open a new report
+Click on add data
+Choose MySQL connector
+Enter following fields :
+Host Name or IP  :
+xxx.xxx.xxx.xxx
+Database             :
+xyz
+Username            :
+xyz
+Password             :
+**********
+Enable SSL
+Upload
+server-ca.pem
+certificate
+Upload
+client-cert.pem
+certificate
+Upload
+client-key.pem
+certificate
+Click Authenticate
+Add whatever table you want
+Build Visualization
+Project Deliverables
+Below are the services that we provided to client after completion of this project –
+Deployed Data Pipeline in GCP
+:  A Data Pipeline connecting FieldPulse(
+
+) to GCP MySQL that is deployed on a client’s GCP VM instance. It updates the data in MySQL every hour. It extracts the following data tables from FieldPulse –
+Job Data
+Tag Data
+Team Member Data
+Team Data
+Maintaining a log file in Google Cloud :
+There is a log file in cloud to resolve unexpected error quickly if any , log file stores following details –
+last pipeline synced time
+Error type if any
+Error location if any
+Work Order Data :
+Job id
+Work order no.
+Tags titles
+Start_time
+Job_type
+Created By
+Status
+Invoice_status
+Assigned teams name
+Project_id
+Assignment_count
+Assignable_type
+Notes
+Customer_notes
+Customer_first_name
+Customer_last_name
+Location
+Assigned_team_members name
+End_time
+created_at
+Job Tag Data :
+Tag ids
+Company_id
+Mongo_id
+Title (Tag name)
+Type
+Color
+Created_at
+Updated_at
+deleted_at
+Setup to Connect GCP MySQL to Google Data Studio(GDS)
+:  Provided a setup to connect GCP MySQL to GDS easily. Client can access his live data from MySQL to GDS and make visualizations out of it.
+Tools used
+Google Colab
+Language/techniques used
+Python
+Web Scraping
+MySQL
+Skills used
+Programming in Python
+Data Structure & Algorithm
+Web Scraping
+File Handling
+Google Cloud
+Google Data Studio
+Databases used
+MySQL
+Web Cloud Servers used
+Google Cloud Platform (GCP)
+What are the technical Challenges Faced during Project Execution
+Getting Data from FieldPulse :
+As there is no open source package/library in Python for accessing Fieldpulse API , we struggled a lot to get the desired data from FieldPulse.
+Setting Up Connection from GCP MySQL to GDS :
+Due to firewall and VPN , connection was not set up as IP address changes while using VPN. It was showing an error every time someone tries to connect to MySQL from their Google Studio account.
+How the Technical Challenges were Solved
+Getting Data from FieldPulse :
+We did use web scraping for this. We explored all the API addresses. We connected to each possible address and got the data then explored the data. Made a list of addresses which contains data of our interest. Also data is stored in a scattered and cascaded manner in FieldPulse with ids. So , we had to fetch a lot of extra tables and then join multiple tables to get a desired data table.
+Setting Up Connection from GCP MySQL to GDS :
+To resolve this issue , we did as below –
+set up the IP address in GCP MySQL security to 0.0.0.0 , so that any system can access it. (VPN issue resolved)
+Enabled the SSL in GCP MySQL. (to prevent it from unauthorized access)
+Project Video

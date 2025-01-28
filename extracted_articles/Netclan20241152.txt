@@ -1,0 +1,52 @@
+Marketing Analytics to Automate Leads Call Status and Reporting
+Client Background
+Client:
+A leading Marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+Prepare a daily report for the companies and upload it to Google Sheets. Data is from callrail and contains all call information about a company.
+Project Description
+Extracts data from CallRail database for the last 24 hours
+The data is uploaded to the Google sheet “Call status record”
+The script runs once a day and is deployed to Heroku by the name “call-status-to-sheets”.
+The script runs for all companies in the CallRail database.
+The following data is uploaded:
+Company Name
+Status
+Location
+Customer Name
+Call Date
+Call Time
+Contact No
+Call Status
+Call Lead
+Our Solution
+Use CallRail API to get data from database.
+Run script daily
+Filter out excess data
+Prepare report
+Upload to Google Sheets
+Project Deliverables
+A working deployed automated tool that runs once a day in the morning hours and uploads the data to Google Sheets. Tool is monitored daily.
+Tools used
+Heroku
+CallRail API
+BigQuery
+Sheets API
+Language/techniques used
+Python
+Skills used
+Data extraction, cleaning and summarising
+Databases used
+Google Sheets –   Call status record
+Web Cloud Servers used
+Heroku
+What are the technical Challenges Faced during Project Execution
+Ensuring proper amendment of data to sheets without overwrite
+How the Technical Challenges were Solved
+Proper monitoring before final deployment

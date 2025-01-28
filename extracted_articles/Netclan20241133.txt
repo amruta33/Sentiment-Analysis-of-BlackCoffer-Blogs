@@ -1,0 +1,218 @@
+QuickBooks dashboard to find patterns in finance, sales, and forecasts
+Client Background
+Client:
+A leading marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+e-commerce, retail business, marketing
+Organization Size:
+100+
+Project Objective
+Build a fully Integrated BI Platform in PowerBI using native connectors and APIs(QuickBooks and Airtable) to pull real time data from many sources.
+Project Description
+For building a fully integrated BI Platform , the data has to come from the following sources to feed it to PowerBI –
+·
+QuickBooks :
+An accounting software that accepts real-time business payments ,  manage and pay bills, manage organisation’s deposits/expenses , customers ,and payroll functions. The following data/tables has to be fetched from Quickbooks –
+o   Customer
+o   Invoices
+o   Product & Services
+o   Payments
+o   Expenses
+o   Deposits
+o   Accounts
+o   Vendors
+o   Departments
+o   Classes
+·
+Airtable :
+An online database hybrid platform for creating and sharing relational databases with friendly user interfaces. The following databases with multiple data table has to be fetched from Airtable –
+o   Marketing Data Analytics Base (Google Ads , Facebook Ads)
+o   Payroll Tracking (Payroll , Hours Log)
+This Quickbook and Airtable real time data has to go to the powerBI service (
+
+). Then create useful visualisation and dashboards based on plan and feedback from the executive team. All visuals in dashboards should automatically update without any intervention to make it fully integrated.
+Our Solution
+Collecting data tables from data sources :
+Data Pipeline(QuickBooks to Airtable)
+– We have built a Data Pipeline in Python that uses quickbooks API(
+
+) to get raw data tables from QuickBooks and uses Airtable API (
+
+) to write/update data in Airtable. It fetches all the below raw tables after making requests to QuickBooks API –
+Customers , Invoices , Expenses , Deposits
+Accounts , Departments , Vendors etc.
+After getting these raw data tables , pipeline converts it into DataFrame , then writes/updates it into Airtable.
+The Pipeline is deployed in a server that runs every night , it fetches the data from QuickBooks API and writes/updates to Airtable.
+Airtable to PowerBI
+– As there is no connector available to sync data from Airtable to PowerBI. We have used pagination using DAX queries to get data from Web Sources i.e. Airtable API. Pagination fetches the data page by page  using a source and offset technique set by the Airtable API developers. It successfully fetches all the below bases from Airtable API –
+Marketing Data Analytics Data (Google Ads , Facebook Ads)
+Payroll Data (Payroll , Hours Log)
+Scheduled Refresh :
+To refresh visualization/dashboard (If incoming data from Airtable API has updated) , set refresh time in powerBI service.
+Preprocessing of  Data –
+We have used DAX queries to prepare and process the raw data coming from Airtable like –
+Split data , typecast data
+Filter data (fill missing values , delete irrelevant rows etc.)
+Create visualizations/Dashboards
+– We have used following techniques to create visualizations –
+Used M code queries to extract useful/desired data
+Used measure to perform calculations on data
+Use a calculated table to create a relationship between two tables.
+Used data joining (Union , Intersection) to get desired data
+Project Deliverables
+Below are the services that we provided to client after completion of this project –
+Deployed Data Pipeline
+:  A Data Pipeline connecting QuickBooks to Airtable to sync in the following data tables –
+Customers
+Invoices
+Product & Services
+Expense
+Deposits
+Payments
+Accounts
+Vendors
+Departments
+Classes
+QuickBooks Data Dashboard
+: It contains following visualizations –
+KPIs –
+Total Revenue
+Total Spend
+Total Profit
+Profit Margin
+No. of Customer
+Line Charts –
+Revenue/Expense over days
+Bar Charts –
+Revenue & Expenses by Businesses
+Profit/loss by Businesses
+Revenue & Expense by Class
+Profit/loss by Class
+Pie Chart
+Expenses by Category
+Paid/Unpaid Invoices
+Tables –
+[Class , Business , Revenue , Spend , Profit , Profit Margin)
+[Customer , Balance , Due(in days)]
+[Customer , Balance , OverDue]
+[Account , QuickBooks Balance]
+Filters/Slicer –
+Transaction Date
+Business
+Class
+Marketing Analytics (Facebook Ads) Dashboard
+–
+KPIs –
+All Impressions
+Total Reach
+Total Link Clicks
+Average CPM
+Amount Spent on Ads
+Total Budget
+Budget Left
+Line Charts –
+Avg. Frequency Over Days
+Avg. CPC over days
+Impressions , Reach and Page Engagement over days
+Link Clicks by day and Account Name
+Results , Cost per Results over days
+Ad set Budget and Amount Spent Over days
+Bar Charts –
+Ad set Budget and Amount Spent by Account Name
+Gauge –
+Daily Avg. Links
+Count of Ongoing Campaigns
+Tables –
+Top Compeigns [Account name , Compeign name , Link Clicks , Impressions , Reach , Avg. Frequency , Social Impressions]
+Filters/Slicer –
+Account name
+Date Range
+Marketing Analytics (Google Ads) Dashboard
+–
+KPIs –
+Total Impressions
+Total Clicks
+Total Conversions
+Total Cost
+Daily Avg. Cost
+Daily Avg. CTR
+Daily Avg. Conversion Rate
+Daily Avg. Cost per Conversion
+Line Charts –
+Clicks and Conversions over days
+Avg. CPC over days by Day and Google Ad Account
+Clicks per Impressions by Day and Google Ad Account
+Impressions by Day and Google Ad Account
+Cost by Day and Google Ad Account
+Clicks by Day and Google Ad Account
+Gauge –
+Avg. Daily new Conversions
+Pie Chart –
+Count of Google Ad Accounts
+Tables –
+Top Ads [Ad name , Ad Group , Conversions]
+[Google Ad Account , Impressions , Clicks , Conversions]
+Filters/Slicer –
+Date Range
+Google Ad Account Name
+Payroll Dashboard
+–
+KPIs –
+$ Total Payroll
+$ Avg. Rate
+Count of Invoice
+Total Payroll Time (in hrs.)
+Avg. TurnArroundTime (in Days)
+Total Hours
+Line Charts –
+Avg. Rate over Days
+Avg. daily Pay Amount
+Bar Chart –
+Payroll time by Employee
+$ Payroll by Employee
+Hours by Entity
+Total hours by Employee
+Pie Chart –
+Paid/Unpaid Invoices
+Tables –
+Payroll [Employee , Count of Invoice , Total Due , Paid Before/After Due Date]
+Filters/Slicer –
+Date Range
+Employee name
+Entity name
+Tools used
+PowerBI
+Language/techniques used
+Python
+Pagination
+Skills used
+Programming in Python
+Data Structure & Algorithm
+API Integration (QuickBooks , Airtable)
+File Handling
+PowerBI(with DAX , M code queries)
+Data Analytics
+What are the technical Challenges Faced during Project Execution?
+QuickBooks Refresh Token Expired Issue
+: As stated in QuickBooks Developer Guide , we need refresh token to access QuickBooks API and it expires after 101 days. But that is not the case , it usually expires within 2 to 4 days depending on how frequently we access the API. In that case our deployed Pipeline does not work if the token expired.
+Getting data from Airtable to PowerBI
+: As PowerBI has no Airtable data source connector to fetch data from Airtable , we did use Web Source connector using Airtable data web links. It only fetches the 1st page that is 100 rows from Airtable base because Airtable API gives only 100 rows/request.
+Dynamic Data Source Refresh Issue
+:  As the URL of Airtable bases data changes based on the size of data. PowerBI recognizes it as Dynamic Data Source , hence it gives the error “Dynamic Data Source Refresh Error” in PowerBI Service.
+How the Technical Challenges were Solved
+QuickBooks Refresh Token Expired Issue
+:  As the token may expire anytime after 2 days , so to resolve this we have added a gui element in Pipeline so that if token expires a pop up will appear asking for a new refresh token , until the consumer enters a valid new token from their QuickBook developer account , a pop up will keep coming and pipeline will be paused. Once the user enters a new token , the pipeline will continue working.
+Getting data from Airtable to PowerBI
+: To resolve this issue , we have used Pagination technique as below –
+First request Airtable API with proper URL , api_key and blank_offset (data_url?API_KEY=api_key?OFFSET=blank_offset)
+This request returns first 100 rows of data and a new offset value
+Now replace the previous offset value with a new offset value in the URL , and again make an API request.
+This request will return the next 100 rows of data and a new offset.
+Do this until you get a null offset (null offset means , all data has been fetched)
+This is how we get all the data of any size from Airtable bases.
+Dynamic Data Source Refresh Issue
+: The above mentioned Pagination technique converts dynamic URLs of Airtable bases data into static URLs. So PowerBI gives no error as it has been converted to a static data source. Now the client can refresh the dashboard manually by clicking the refresh button or can set automatic refresh daily at some given time.
+Project Snapshots
+Project Video

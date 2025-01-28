@@ -1,0 +1,119 @@
+Ad Networks Marketing Campaign Data Dashboard in Looker (Google Data Studio)
+Client Background
+Client:
+A leading financial firm in Dubai
+Industry Type:
+Financial Services
+Services:
+Banking, Financial Services, Card Payments, Mobile Payments, Digital Bank, and FinTech
+Organization Size:
+200+
+The Problem
+Build dashboards unifying all the platforms in use: Google Ads, FB ads, Appsflyer, Mixpanel, etc,
+in order to be able to track everything in the funnel from traffic source to total installs (paid, organic and by channel
+Our Solution
+Track the app data analytics using various platforms
+Prepare the data sources – find and build data connectors for Google Data Studio.
+Developed 14 pages of Dashboard reports- creating templates to importing data sources and perform various visualisations.
+Maintained and tracked dashboard reports and helped the client with intelligence from these reports.
+Deliverables
+1
+Updating the iOS datasheet
+2
+Fixing the incoming data for androids
+3
+Correcting a calculation error
+4
+Finding an alternative to provide automated data update directly to google data studio for iOS.
+5
+Updates done to all the dashboards
+6
+Created new dashboards
+7
+Created a consolidated dashboard
+8
+Added required visualizations and conected to data sources
+9
+Created new data sources
+10
+Managing the consolidated dashboard with daily data monitoring
+11
+Funnel Report for consolidated dahboard
+12
+Google analytics installed on website through tag manager
+13
+Resolving errors
+14
+work on automation for ad acccounts
+15
+Developed a new dashboard
+16
+Ad accounts data Automated
+17
+work towards android data automation
+18
+altering of blended data joins as per gds updates
+19
+Personalisation of dashboards
+20
+Current dashboard updated with google events and widget changes
+21
+Added Apple search ads dashboard
+22
+Firebase funnel report dashboard developed
+23
+Card topups Funnel report dashboard developed
+24
+Porter metrics custom dashboards for trial
+25
+Registration firebase funnel and percentage added
+26
+Updates for all the dashboards running until now and addition of kpi to the new firebase dashboards
+27
+User info for firebase dashboard and retention report
+28
+Registration Funnel, Cardtopups, KYC funnel Dashboard
+29
+Fixing and Updating user info firebase dashboard and began working on the tiktok dashboard
+30
+Tiktok Dashboard Developed and populated with data from porter metrics
+Tools used
+Google Data Studio
+Google Analytics- GA4 and universal analytics
+Google Tag Manager
+Big Query
+Firebase
+Appsflyer
+Mixpanel
+Google spreadsheets
+Language/techniques used
+Google Standard SQL dialect- bigquery
+Apps script
+Skills used
+Analytical aptitude
+Problem-solving
+Communication
+Knowledge about SQL
+Knowledge in digital marketing and strategies
+Google cloud services
+Creating data pipelines.
+Databases used
+Bigquery
+Google spreadsheets
+Firebase
+Web Cloud Servers used
+Google Cloud Platform
+What are the technical Challenges Faced during Project Execution
+Community/in-built Connectors for Appstore connect didn’t exist
+Connector for apple search ads couldn’t be found
+Data tracking from google play console, due to the timezone lag in data updation.
+Facebook connector issues
+How the Technical Challenges were Solved
+Worked towards building the custom connector by using apple api for Appstore connect and search ads
+Utilised big query to call and store 100% accurate data from google play console and be used as a connector in GDS
+Made use of inhouse built facebook connector and google sheet add-on to track and keep connector inaccuracy check.
+Business Impact
+Helped the client to view a consolidated report of all their ad campaigns
+Calculated and executed analytics metrics which helped to track various app events and helped the business to take decisions on UX
+Consulted the client and collaborated with them in marketing and ad campaign strategies- helped them cut their marketing expenses over less efficient marketing platforms
+Created funnel reports and suggested insights on app traffic to take decisions on important landing pages.

@@ -1,0 +1,49 @@
+Making a robust way to sync data from airtables to mongoDB using python – ETL Solution
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT Services
+Services:
+SAAS services, Marketing services, Business consultant
+Organization Size:
+100+
+Project Description
+Equilo is a social impact start-up focused on gender equality and social inclusion. We need to link data in Airtable (1 million+ records spread across 20+ bases) to MongoDB (v3.x.x).
+Most of the data is backend data for our app, in which case the flow is only AT to MDB.
+Need to create a code that can calculate a scores by pulling from indicators in many different bases and putting result in new database.
+Our Solution
+Used Python and MongoDB module along with Airtable API to fetch all the data from airtables and push them to the database. Stayed in touch with the client through slack and asana completing daily tasks and applying a cronjob for the program to run on a scheduled time.
+Project Deliverables
+Python code for sync into their staging server and then to production.
+Tools used
+VScode
+MongoDB
+Airtable API
+Slack
+Asana
+Github
+Language/techniques used
+Python
+MongoDb
+SQL
+Skills used
+Data extraction
+Data handling
+Data storage
+Computational data queries
+Databases used
+Airtables
+MongoDB
+Web Cloud Servers used
+Airtable
+What are the technical Challenges Faced during Project Execution
+Main challenge faced was regarding the new concept of Airtables and syncing up the data into mongodb in a very complex schema as proposed by the client. Dissimilar columns in mongoDB and Airtables for 100s of tables took lot of time.
+Also insufficient information provided by client while coding and the previous versions codes that had been written only to discover them on a later stage caused a lot of problem.
+Not proper code management which could help next coders like me to complete the remaining stuff quickly.
+How the Technical Challenges were Solved
+These issues were solved by lot of self study and evaluation and then asking the exact question to client which they would then answer. For eg: whereabouts of the previous codes and people who run that code.
+Business Impact
+Helped them immensely making their backend to frontend integration seamless.
+Sped up their product development by 20% to calculate various different scores and visualize them on the frontend.
+Project Snapshots

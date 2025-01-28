@@ -1,0 +1,53 @@
+Google Local Service Ads (LSA) Data Warehouse
+Client Background
+Client:
+A leading Marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+Automated tool to extract daily review data from Local Service Ads dashboard for all clients.
+Project Description
+Extracts data from a company’s Google LSA page for the last 24 hours
+The data is uploaded to the Bigquery database called “LSA_Review_db”.
+The script runs once a day and is deployed to Heroku by the name “lsa-daily-reviews”.
+The script runs for all companies in the Google sheet “LSA Review Automation master file”.
+The following data is uploaded:
+Date
+Company Name
+Location
+Total Reviews
+Verified Reviews
+Overall Star
+Reviewer Name
+Review Date
+Reviewer Star
+Reviewer Comment
+Our Solution
+Get list of companies to monitor along with their LSA URL
+Use Selenium automated browsing to open the review page for each company.
+Web scrape the data from the review page
+Prepare report
+Upload to database
+Project Deliverables
+An automated tool that runs daily and extracts and uploads review data for all companies.
+Tools used
+Selenium
+Heroku
+Sheets API
+BigQuery
+Language/techniques used
+Python
+Skills used
+Data extraction, cleaning and summarising. Web scraping.
+Databases used
+BigQuery –  LSA_Review_db
+Web Cloud Servers used
+Heroku
+What are the technical Challenges Faced during Project Execution
+Using Selenium to automate web browsing since it takes a large amount of RAM.
+How the Technical Challenges were Solved
+Using the proper type of dynos and managing their allotment to lower both costs as well as memory usage.

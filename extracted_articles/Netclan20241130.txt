@@ -1,0 +1,39 @@
+Creating a custom report and dashboard using the data got from Atera API
+Client Background
+Client:
+A leading Marketing firm in USA
+Industry Type:
+Marketing
+Services:
+Marketing, consulting, ads, business solutions
+Organization Size:
+20+
+Project Description
+Atera.com is used as our RMM, we have an agent on every machine. Which tracks the if a machine goes down, initial response time etc.., The website doesn’t provide any standard reports, So we needed to create a custom report.
+Our Solution
+Importing the data from Atera API into Jupyter
+Using Web Scraping download the JSON data
+Convert the JSON data to Data Frame and download it into PC.
+Clean the data with only required columns
+Upload the data into google sheets.
+Connect google sheets and google data studio
+Create the dashboard with the data
+Tools used
+Python (Pandas, requests)
+Google Sheets
+Google Data Studio
+Skills used
+Analytics
+Programming Language
+Databases used
+Contacts.csv
+Customers.csv
+Tickets.csv
+Alerts.csv
+What are the technical Challenges Faced during Project Execution?
+I found it difficult on downloading the data.
+How the Technical Challenges were Solved
+Once I figured I have been using the wrong Authorization key to login I was able to solve the issue, and convert the curl command into python
+Project Snapshots
+
+Project Video

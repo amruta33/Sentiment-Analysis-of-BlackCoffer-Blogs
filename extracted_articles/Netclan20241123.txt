@@ -1,0 +1,43 @@
+MetaBridges API Decentraland Integration – AR, VR
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Services:
+Consulting, Software, Blockchain, Metaverse
+Organization Size:
+20+
+Project Objective
+To integrate with Metaverse environments with the help of EC2, S3 bucket and the Decentraland SDK.
+Project Description
+Move 3D model files from EC2 instance to S3 bucked using aws-sdk.
+Our Solution
+Configure  s3 bucket in aws account, create an user for s3 bucket api keys, and
+api secret. Put the api key, aapi secret, bucket name and bucket region in
+environment variable to use them in app. Install aws-sdk to implement s3 bucket.
+Create a function to send file from nodejs server to s3 bucket.
+Project Deliverables
+Aws ec2 instance credentials, s3 bucket credentials. Code used in the project
+Tools used
+vs code editor, git bash terminal, google chrome web browser.  Metamask wallet, cryptocurrency, blockchain, bitcoin,  metamask, metaverse, VR, AR, Virtual Reality, Augmented Reality
+Language/techniques used
+Javascript language is used.  Metamask wallet, cryptocurrency, blockchain, bitcoin,  metamask, metaverse, VR, AR, Virtual Reality, Augmented Reality
+Models used
+dcl SDK (Decentraland sdk for nodejs), aws-sdk, awscli.
+Skills used
+Node js project setup, Dcl sdk setup, Aws ec2 instance setup with aws cli,
+S3 bucket connection with aws-sdk. cryptocurrency, blockchain, bitcoin, metamask, metaverse, VR, AR, Virtual Reality, Augmented Reality
+Databases used
+No database is used
+Web Cloud Servers used
+AWS cloud server is used
+What are the technical Challenges Faced during Project Execution
+Making the application port in ec2 instance available globaly.
+How the Technical Challenges were Solved
+Search few blogs and videos for the solution. And make it done by doing some change in
+Security group in ec2 instance.
+Business Impact
+As Decentraland is a platform based of NFT so main part of business is related to NFT and cryptocurrency.
+Project Snapshots
+Project Video

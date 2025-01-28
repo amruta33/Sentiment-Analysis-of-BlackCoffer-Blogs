@@ -1,0 +1,56 @@
+Web Data Connector
+Client Background
+Client:
+A Leading Marketing Tech Firm in Australia
+Industry Type:
+Marketing
+Services:
+Marketing Solutions
+Organization Size:
+50+
+Project Objective
+To make a software code that takes data from a source and ingests it into a database present on a server. The scripts should automatically execute after regular intervals of time.
+Project Description
+The client had several data sources that were updated with new data regularly. The client wanted software that triggers itself automatically and takes data from those data sources and ingests it into a database that is hosted on a Linode server. Also, the date parameters in the query should be changed dynamically using the current date. Further, we had to assist in setting up the Tableau BI tool on the client’s PC and connect the Postgres database to the tableau.
+Our Solution
+We setup a linux server on linode.
+Install Postgres on this linux server.
+Create a database and create a new user. Grant this new user all privileges on the database.
+Create a table within the database. This table has columns with datatypes as specified by the client.
+Write a python script that makes GET request to the client specified data source and store the response in json format.
+Inside the python script itself, establish  a connection to our postgres database using the pscopg2 module and user credentials.
+Ingest the data into postgres using INSERT query in python script.
+Write code to get the today’s date using the datetime module. Using this, calculate yesterday’s date. Now we can use these as parameters inside our query to the data source.
+Move these python files to our server.
+Install and setup Cron on our server.
+Add the task to run specified python files at regular intervals to Cron.
+Repeat steps 4 to 11 for every new data source.
+Project Deliverables
+Python Script
+Working linode server with cron installed
+Tableau installation and connection to postgres
+Project Documentation
+Tools used
+Linode server
+VS Code
+Language/techniques used
+Python
+Bash
+PSQL.
+Skills used
+Python programming
+Postgres SQL
+Linux scripting
+Databases used
+Postgres
+Web Cloud Servers used
+Linode
+What are the technical Challenges Faced during Project Execution
+Avoiding duplicates was a challenge.
+Since Client was living in Australia all the timezone (on server and in code) were changed to AEDT.
+How the Technical Challenges were Solved
+Used uniqueid Column to check for duplicates.
+Used pytz module to change timezones.
+Business Impact
+This solution helps in maintaining a copy of all data sources inside our Postgres database. Also, the data is 24/7 available. Since data inside the Postgres is updated regularly, graphs in the tableau are also up to date.
+Project Snapshots

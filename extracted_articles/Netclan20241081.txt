@@ -1,0 +1,34 @@
+Car Detection in Satellite Images
+Client Background
+Client:
+A leading retail firm in the USA
+Industry Type:
+Retail
+Services:
+Retail business
+Organization Size:
+100+
+Project Objective
+The objective of this project was to detect cars in satellite images and highlight them using a bounding box.
+Project Description
+The client, Steffen Schneider, approached us with a requirement to develop a Python project that dealt in the field of computer vision. The main aim of the project was to detect cars present in a satellite image and highlight them using a bounding box. To achieve this, we decided to use the Darknet model and train it on Yolov4 dataset of cars in satellite images.
+Our Solution
+We used Google Colab for coding and training the Darknet model. Kaggle was used to download the Yolov4 dataset of cars in satellite images. We preprocessed the dataset and trained the model on it. Once the model was trained, we tested it on sample satellite images and it worked perfectly fine. Finally, we created a script that detected the cars in an image and highlighted them using a bounding box.
+Project Deliverables
+The final deliverable was a ipython Notebook presented on Google Colab.
+Tools used
+Google Colab, Kaggle, Slack(For Communication)
+Language/techniques used
+Python
+Models used
+Darknet(CV Model)
+Skills used
+Python programming, AI/ML.
+What are the technical Challenges Faced during Project Execution
+The main challenge we faced was related to the pre-processing of the Yolov4 dataset of cars in satellite images. The dataset was large and had to be cleaned and formatted before it could be used for training the model.
+How the Technical Challenges were Solved
+We used Python programming skills and developed a script that automated the pre-processing of the dataset. This saved us a lot of time and allowed us to focus on training the model.
+Business Impact
+The project was a success and the client was very happy with the final product. The car detection model worked perfectly fine on sample satellite images and could be used for further development of an application that could detect cars in real-time.
+
+Project Video

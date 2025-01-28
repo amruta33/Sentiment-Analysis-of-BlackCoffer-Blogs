@@ -1,0 +1,35 @@
+Connecting MongoDB Database to Power BI Dashboard: Dashboard Automation
+Client Background
+Client:
+A leading tech firm in Newzealand
+Industry Type:
+Retail
+Services:
+Retail business
+Organization Size:
+100+
+Project Objective
+Brodie Johnco had a MongoDB Database that he wanted to connect to a Power BI Dashboard. However, ODBC connectors were not working for his level of subscription, so he needed a cheaper workaround.
+Project Description
+Brodie Johnco had a MongoDB Database containing a large amount of data that he wanted to visualize in a Power BI Dashboard. He initially tried to use ODBC connectors to connect his database to Power BI, but ran into issues due to his level of subscription. We were brought in to help find a cheaper workaround.
+Our solution involved using Python to extract the relevant data from Brodie’s MongoDB Database. We used the Pandas library to create Dataframes, which we then uploaded to Azure Blob Storage as tables. We set up an Azure pipeline that ran a Python script every 30 minutes to update the tables with new data from the database.
+Our Solution
+We used Brodie’s MongoDB Database keys to extract relevant Data Clusters as Pandas Dataframes. We then added them as tables to Azure Blob Storage and set up a Python script to an Azure pipeline that refreshed every 30 minutes. This allowed us to keep the data in sync and provide Brodie with up-to-date information for his Power BI Dashboard.
+Project Deliverables
+The final deliverable was a readable CSV file that contained the converted data from the original JSON format.
+Tools used
+Jupyter Notebook, Google Colab, Power BI, MongoDB Compass, Microsoft Excel, Azure Blob Storage
+Language/techniques used
+Python, Pandas, Azure Cloud Storage
+Skills used
+Python programming, Azure Cloud Storage, data extraction and manipulation
+Databases used
+MongoDB Database
+Web Cloud Servers used
+Azure Blob Storage
+What are the technical Challenges Faced during Project Execution
+The main challenge we faced was finding a way to connect Brodie’s MongoDB Database to his Power BI Dashboard without using ODBC connectors. We overcame this challenge by using Python and Azure Blob Storage to extract and store the relevant data.
+How the Technical Challenges were Solved
+We solved the issue by using the client’s MongoDB Database keys to extract relevant Data Clusters as Pandas Dataframes. We then added these dataframes as tables to Azure Blob Storage and set the Python script to an Azure pipeline that refreshed every 30 minutes. This allowed the client to access the data in Power BI without the need for ODBC connectors.
+Business Impact
+Our solution allowed Brodie to visualize his data in a Power BI Dashboard without having to pay for expensive ODBC connectors. The Azure Blob Storage solution we implemented was much more cost-effective and provided him with up-to-date information every 30 minutes.

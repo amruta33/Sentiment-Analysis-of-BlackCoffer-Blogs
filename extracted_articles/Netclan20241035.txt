@@ -1,0 +1,81 @@
+Comprehensive Analysis of Solana and Ethereum Contributors Using GitHub API with Comparative Study of 1000 Random GitHub Profiles
+Client Background
+Client:
+A leading IT & tech firm in the USA
+Industry Type:
+IT
+Products & Services:
+IT Consulting, IT Support, SaaS
+Organization Size:
+200+
+The Problem
+Perform analysis of all contributor’s profiles of Solana and Ethereum repository by collecting information through GitHub API then perform analysis of all random 1000 Github user’s profile.
+Our Solution
+To achieve this analysis first, we need to extract each GitHub user’s data. These user data are retrieved from the most popular repository.
+These are the following features which will impact on good developer.
+From github_username will fetch the all feature as follows 1) total_repos 2) total_contribution (all repos) 3) total_forks 4) total_stars 5) total_achievements 6) popularity 7) total_code_review 8) total_issues 9) total comments
+Total Repository:
+Description: This feature indicates the overall number of repositories owned by a GitHub user.
+Impact on Good Developer: A good developer often has a varied and substantial collection of repositories, showcasing their diverse skills and experiences. A higher number of repositories may indicate a proactive approach to personal and collaborative projects.
+Total Commits:
+Description: The total count of commits made by the GitHub user across all repositories.
+Impact on Good Developer: A higher number of commits suggests an active and consistent contribution to projects. It reflects a strong work ethic and continuous engagement in coding activities.
+Total Repository Forks:
+Description: The cumulative number of times repositories owned by the user have been forked by others.
+Impact on Good Developer: Forks indicate that others find the developer’s projects valuable. It can be a measure of the influence and usefulness of their code to the community.
+Total Stars Achieved:
+Description: The total number of stars received across all repositories.
+Impact on Good Developer: Stars signify appreciation and popularity. A higher star count suggests that the developer’s work is recognized and admired by the GitHub community.
+Total Issue Raise:
+Description: The overall count of issues raised by the user in various repositories.
+Impact on Good Developer: Actively participating in issue tracking demonstrates collaboration and problem-solving skills. A good developer not only writes code but also engages in discussions and issue resolution.
+Total Code Review:
+Description: The number of code reviews conducted by the user.
+Impact on Good Developer: Engaging in code reviews indicates a commitment to maintaining code quality and collaborating effectively with team members.
+Total Commits per Repository:
+Description: Average number of commits per repository owned by the user.
+Impact on Good Developer: This metric gives insights into the developer’s commitment to individual projects. A well-maintained and actively developed repository may reflect a higher level of expertise and dedication.
+Total Addition per Repository:
+Description: Average lines of code added per repository.
+Impact on Good Developer: This provides insights into the depth of contributions to individual projects. A good developer not only contributes but does so in a meaningful and impactful way.
+Total Deletion per Repository:
+Description: Average lines of code deleted per repository.
+Impact on Good Developer: While deletions are necessary, an excessive average deletion count might indicate a need for improvement in initial code quality. A balanced approach to code maintenance is crucial.
+Total Stars per Repository:
+Description: Average number of stars received per repository.
+Impact on Good Developer: This metric helps gauge the overall popularity and impact of individual projects. A higher average star count reflects well-received and valuable work.
+Total Forks per Repository:
+Description: Average number of times repositories are forked.
+Impact on Good Developer: A higher average fork count indicates that the developer’s projects are considered as starting points for other projects, showcasing their influence and contribution to the open-source community.
+Popularity Score
+popularity_score = ((((stars * weight_stars) + (forks * weight_forks) + (contributions * weight_contributions)) / max_value_among_all_repositories) * weight_popularity)
+Impact Score
+impact_score = num_commits * weight_commits + num_reviewers * weight_reviewers + num_comments * weight_comments + num_issues * weight_issues )
+Combined Score
+Combined Score = Popularity Score + Impact Score
+Solution Architecture
+Deliverables
+Analysis of Filtered 760 users data , 790 solana and ethereum user data and 1000 random people dataset
+Analysis of Filtered and combined dataset:
+
+Filtered and combined dataset
+
+Analysis of 1000 random github profiles:
+
+Tech Stack
+Tools used
+VSCode, MS Excel
+Language/techniques used
+Python, Github API
+Skills used
+Python libraries
+Databases used
+none
+Web Cloud Servers used
+none
+What are the technical Challenges Faced during Project Execution
+Fetching all the GitHub features from GitHub API was a time-consuming process.
+How the Technical Challenges were Solved
+I solved this problem by parallel processing and creating checkpoints to save the data collected if the API limit was exceeded.
+Business Impact
+Analyzing the profiles of contributors to Solana and Ethereum repositories through the GitHub API and conducting a similar assessment of random 1000 GitHub users provides critical insights for strategic decision-making, community engagement, and resource optimization. This analysis enables the identification of key contributors, assessment of project quality and sustainability, and efficient allocation of resources based on diverse skill sets. It mitigates risks associated with dependency on a few contributors, aids talent acquisition and retention, and benchmarks the platforms’ competitiveness. Additionally, it guides innovation, and compliance measures, and ensures business continuity by proactively addressing potential disruptions. Overall, this in-depth analysis serves as a valuable tool for enhancing the vitality, innovation, and longevity of blockchain projects on Solana and Ethereum.

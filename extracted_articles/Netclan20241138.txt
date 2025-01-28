@@ -1,0 +1,33 @@
+A Leading Firm in the USA, Website SEO & Optimization
+Client Background
+Client:
+A leading marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+Fixing On-Page SEO of the website
+Project Description
+Fixing On-Page SEO contains things like title, meta description, image-alt text, broken links, 404 error page, multiple h1 tag in one page, duplicate title/description, dynamic URL, sparse content page (word count <500), etc.
+Our Solution
+Fixed all the possible solutions that we can do for improving the SEO health score.
+Fixed, image-alt text error, title, meta description, broken links, dynamic URL, 404 error page, sparse content pages, contact information on all pages, connecting website with Google search console.
+Tools used
+Ahrefs
+WordPress
+Google Search Console
+Language/techniques used
+HTML
+Redirection plugin
+Skills used
+HTML
+WordPress
+Google Search Console
+Project Snapshots
+Project website URL
+URL
+
+Home

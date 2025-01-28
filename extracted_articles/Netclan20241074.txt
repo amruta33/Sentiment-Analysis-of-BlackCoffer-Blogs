@@ -1,0 +1,34 @@
+Advanced AI for Trading Automation
+Client Background
+Client:
+A leading tech firm in Europe
+Industry Type:
+Banking & Finance
+Services:
+Trading, and financial services
+Organization Size:
+100+
+The Problem
+Create an automated trading application with fully automated trading capabilities from selecting pair of assets to buying/selling assets. This application uses AI to decide what action to take while trading.
+Our Solution
+We have integrated coin_api with the application from which data is extracted. We have created the homepage for this application. We have changed the code structure of the front end to make it more fast and efficient.
+Solution Architecture
+An application, where the first automated top asset pair selection happens. If the coins are co-integrated, then only one indicator must be executed else trading starts based on 2 indicators.
+The AI agent will take specific action to trade based on the algorithm.
+Deliverables
+We have removed the old API and integrated the new api with the application.
+We have altered the code structure of the front end to make the code faster and more efficient.
+Tools used
+Visual studio code
+Language/techniques used
+Python
+Skills used
+Django
+Databases used
+SQlite
+Web Cloud Servers used
+Digital Ocean
+What are the technical Challenges Faced during Project Execution
+We faced an issue while integrating coin api with the application while retrieving the data. To retrieve the data using the coin api, we need to input a symbol id. This symbol id is a combination of exchange_name, symbol_type, currency_we_want_to_trade, and quote_currency. There are N coins that can be retrieved using coin api. There are more than multiple exchanges, multiple symbol types, and multiple quote currencies for ONE SINGLE COIN. This makes there is a huge no. Of combinations for one single coin. This made the execution of the api integration very slow.
+How the Technical Challenges were Solved
+We created one drop-down for exchange selection, one drop-down for symbol type selection, one drop for coin, and one drop-down for quote currency selection. The user selects these, and in the backend, a combination is created and is sent as input to the coin api code and the data is retrieved without slowing down the process.

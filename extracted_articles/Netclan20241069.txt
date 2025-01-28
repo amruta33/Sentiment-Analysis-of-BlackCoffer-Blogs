@@ -1,0 +1,39 @@
+AI-Based Algorithmic Trading Bot for Forex
+Client Background
+Client:
+A leading trading firm in the USA
+Industry Type:
+Finance
+Services:
+Trading, Banking, Investment
+Organization Size:
+100+
+The Problem
+Build ML/AI Model to predict next 15 min EMA cross on historical and live data by using indicators such as EMA, MACD, RSI etc.
+Create a web app to show predicted EMA cross and other indicators movement
+Our Solution
+In stock market indicators such as EMA, MACD, RSI etc helps us to find cross by using historical price data. If we accurately predict cross earlier then it will help us in investment. So we have used 12data api to collect historical and live EUR/USD price data. We calculated EMA(12), EMA(26), MACD and RSI indicators based on price data.  After that we created labels of ema cross in historical data. When we have training data we used different classifier models for training. We predicted accuracy  with different models and the Logistic regression model gave 91% accuracy. This logistic regression is predicting the cross only for the next step. It means we will know only 15 minutes before that the cross will happen in the next 15 min but we need to know more earlier. For that we predicted the next 45 minutes price values using the LSTM model from historical price data. Based on these price values we have calculated EMA, MACD and RSI and  after that cross using logistic regression. So now we can predict the cross 1 hour earlier based on these 2 models.
+To show cross and other  indicators movement we created a python flask web app and hosted it on AWS EC2 server. The process runs every 15 minutes  and checks the cross. If there is any cross in 1 hour it sends a telegram notification.
+Deliverables
+Flask web app
+All the python code and machine learning models
+Tools used
+Pandas, numpy, scikit-learn, tensorflow, flask etc.
+Language/techniques used
+Data Analysis, Data Visualization, Machine learning, Deep learning, flask web app etc.
+Models used
+Logistic Regression, LSTM model
+Skills used
+Data Analysis, Data Visualization, Machine learning, Deep learning, flask, python etc.
+Databases used
+MongoDB
+Web Cloud Servers used
+AWS Ec2
+What are the technical Challenges Faced during Project Execution
+Main challenge in this project is to find the best model. Because we have time series data so we cannot change the orders to get better accuracy.
+One machine learning model is only predicting the next 15 min cross but we need the ema cross 1 hour before.
+How the Technical Challenges were Solved
+We were using time series data so we cannot change the order to find better accuracy in every model.  So we have tried different models with the same order and evaluated the model. Only the logistic regression model worked best for the data it gave 91% accuracy on test data.
+To get the next 1 hour prediction we first tried the same logistic regression to predict the next 3 steps but we failed because of poor accuracy. So we trained the LSTM model on price data and predicted the next 3 steps using the LSTM model.  After that we used logistic regression to predict ema cross.
+Business Impact
+It will help traders to predict the stock market earlier and get better returns from this project.

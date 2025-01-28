@@ -1,0 +1,45 @@
+Traction Dashboards of Marketing Campaigns and Posts
+Client Background
+Client:
+A leading Marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+For the LinkedIn posts that received the highest engagement, which keywords, phrases, and hashtags were most commonly used and also view the data according to Impressions and Likes?
+Project Description
+We are testing AWS Comprehend. I performed a key phrase analysis of our LinkedIn posts. We have an output file. Now we need your help to visualize the data so that we can interpret it.
+I also have the original export file from LinkedIn. I want to answer this business question:
+For the LinkedIn posts that received the highest engagement, which keywords, phrases, and hashtags were most commonly used?
+I want to match up Engagement Rate with key phrase analysis. The business question is this: For the LinkedIn posts that received the highest engagement, what were the most common keywords, phrases and hashtags used?
+Beyond matching to Engagement Rate, please check if there is a way to also view the data according to Impressions and Likes.
+Our Solution
+Data Driven Dashboards which will give the summary of Most used words, keywords, Phrases and also Analysis of Posts as per their interaction with their audience.
+Project Deliverables
+Two Dashboard Links in which
+First dashboard
+represents Key Phrase analysis of the output by AWS Comprehend.
+Second Dashboard
+represents the Linked In data Analysis
+Tools used
+Python, Google Data studio
+Language/techniques used
+Python
+Skills used
+Python and Data Studio
+Databases used
+MongoDB
+Web Cloud Servers used
+Google Data Studio
+What are the technical Challenges Faced during Project Execution
+One of the major problem was to match the output of AWS Comprehend data with the data of excel sheet to find out which posts received maximum interactions and make a dashboard out of it.
+How the Technical Challenges were Solved
+Working on the output.json file in code editor and comparing it to the Linked In data sheet to check the accuracy of the output file with each post.
+Project Snapshots (Minimum 10 Pictures)
+Project website Url
+1 Key Phrase Analysis Dashboard
+
+2 Linked IN Data Analysis Dashboard

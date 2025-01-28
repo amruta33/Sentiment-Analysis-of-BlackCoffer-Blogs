@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter a URL for Sentimental Analysis</h1>
+        <form action="/analyze" method="POST">
+            <!--..<label for="url">Enter URL:</label><br>-->
+            <input type="text" id="url" name="url" placeholder="Enter URL here" required><br><br>
+            <button type="submit">Click Me</button>
+        </form>
+    </div>
+</body>
+</html>

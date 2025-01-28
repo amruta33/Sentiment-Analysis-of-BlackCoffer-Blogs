@@ -1,0 +1,31 @@
+Advanced AI for Thermal Person Detection
+Client Background
+Client:
+A leading tech firm in the Middle East
+Industry Type:
+Security
+Services:
+Security services
+Organization Size:
+100+
+The Problem
+Detect a Person from thermal image and videos. Why this model was created was not told to us by the client.
+Our Solution
+Use Deeplearning Computer Vision to train the model on custom dataset and get the results.
+Solution Architecture
+Linux 22.04
+Nvidiva RTX 3080
+Deliverables
+Trained model
+Tools used
+Labelimg
+Yolov7
+COCO2JSON
+Language/techniques used
+Python
+Models used
+Yolov7
+Skills used
+Deeplearning
+Computer vision
+Programming

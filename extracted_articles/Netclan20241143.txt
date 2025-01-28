@@ -1,0 +1,42 @@
+Key Audit Matters Predictive Modeling
+Client Background
+Client:
+A leading business school worldwide
+Industry Type:
+R&D
+Services:
+Research & Innovation
+Organization Size:
+10000+
+Project Objective
+Do regression modeling on the data provided, cross-country determinants of Key Audit Matters (KAMs) and its usefulness to Investors and Debt Market Participants
+Project Description
+USEFULNESS TO EQUITY MARKETS
+Examine whether the number and content of KAMs varies with country-level determinants.
+Explore whether the usefulness of KAMs to investors varies with country level variables such as type of law, enforcement etc.
+Examine whether adoption of the expanded auditor’s report associated with change in audit quality? Examine whether the content in the auditor’s report improves audit quality. Does this vary across countries?
+Is the adoption of the expanded auditor’s report associated with a change in audit fees?
+Explore whether the content of auditor report moderates the usefulness of KAMs to investors (also check by country-level variables)
+Can the number and content of KAMs be used to predict restatements (2017 onwards)?
+In order to do the analysis and hypothesis testing, create a mapping to divide the audits into sub category and category according to the sub category and category provided in the question document. Clean the data before proceeding and calculate variables ABRET, ABVOL, CAR and CAAR according to the description provided.
+Our Solution
+Created a mapping for key audit matters to label the sub category and category of the audit for further analysis and merging with other datasets on the basis of the unique keys to create a final dataset we can use to calculate and do the hypothesis testing.
+Calculation of variable ABRET and ABVOL is proceeded by firstly arranging the data by unique key and then the date of the data to get the sorted data. Cleaning is done on the data by removing the repetitive entries from the dataset and then selected the data around the date for which the variable is to be calculated. Similarly, calculated ABVOL in which extracted the data around the annual report filing date and mean value for 40 days interval that ends 21 days before earning announcement dates.
+Couldn’t proceed because dataset provided by the client was incomplete in order to calculate ABRET.
+Language/techniques used
+R language to create mapping for the key audit matters and save data set for question 1.
+Python pandas library to deal with dates and extract data around annual report filing date.
+Skills used
+Data mapping, data cleaning, data manipulation, debugging
+Databases used
+Key audit matter
+GDP rule law
+Audit fee
+Trading data
+Earning date
+Report filing date
+What are the technical Challenges Faced during Project Execution
+Dataset provided by the client was too big and made my system slow when the data is loaded in the environment. Too many datasets and variables made it bit difficult to understand and time taking.
+How the Technical Challenges were Solved
+Calculated the number of unique identifiers in the large dataset and sorted those. Then selected the data for 1 unique identifier and sorted dates for it and append it to the dataframe and saved group of such unique identifiers to reduce the size of the dataset and performed the calculations in loop.
+To tackle the difficulty of understanding the data I made a document tracking all the columns or variables present in the data.

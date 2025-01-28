@@ -1,0 +1,37 @@
+A Leading Law Firm in the USA, Website SEO & Optimization
+Client Background
+Client:
+A leading marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+Connect website to Search Console, Google Analytics and Facebook Pixel through Google Tag Manager.
+Fix SEO of the website.
+Project Description
+Connecting website to Google Search Console, Google Analytics and Facebook Pixel through Google Tag Manager.
+Fixing SEO of the website.
+Our Solution
+Website connected to Google Search Console, Google Analytics and Facebook Pixel successfully.
+Fixed the
+meta description error
+broken link error
+404 error, etc.
+Tools used
+Squarespace
+Google Tag Manager
+Google Analytics
+Google Search Console
+Language/techniques used
+JavaScript
+Skills used
+Squarespace
+Google Tag Manager
+Google Analytics
+Google Search Console
+JavaScript
+Project Snapshots
+Project website URL

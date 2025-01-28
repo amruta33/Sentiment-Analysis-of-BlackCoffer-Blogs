@@ -1,0 +1,30 @@
+AI agent development and Deployment in Jina AI
+Client Background
+Client:
+A leading tech firm in Europe
+Industry Type:
+IT
+Services:
+IT and Consulting
+Organization Size:
+100+
+The Problem
+The client’s object was to create AI agents for his website, which the end-users will utilize for many tasks. The client had some recommendations on the models are utilized.
+Our Solution
+Created a feasible models list that complements the client’s requirement and when ahead and executed the Executor code for every model for compatibility with JinaAI deployment. After implementing Executor codes, I created a Flow to connect every executor and deployed it successfully.
+Deliverables
+Successfully delivered executable deployed models in Jina Ai
+Tools used
+Jina AI, VSCode, HuggingFace
+Language/techniques used
+Python
+Models used
+Whisper, Stable Diffusion, GPT3, Codex, YOLO, CoquiAI, PDF Segmentor
+Skills used
+Python, Model APIs
+Databases used
+JinaAI Cloud
+What are the technical Challenges Faced during Project Execution
+There were minute challenges, such as deployment issues and Execution issues
+How the Technical Challenges were Solved
+I resolved the issues effectively after long hours of understanding the concept because JinaAI is a new growing technology that does not have many forums to solve errors and issues.

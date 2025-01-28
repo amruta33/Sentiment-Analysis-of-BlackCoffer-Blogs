@@ -1,0 +1,34 @@
+Design & develop an app in retool which shows the progress of the added video
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT & Consulting
+Services:
+Software, Business Solutions, Consulting
+Organization Size:
+200+
+Project Description
+The objective was to develop a progress bar that can help costumes to estimate the analytics of the video.
+Our Solution
+The client wanted a progress bar with the following filters:
+Date filter: – Update the progress bar and count of the videos according to the date selected
+Category filter: – Update the progress bar and the count of the videos according to the selected category
+We have created a SQL query for getting a count of the videos from the full video table according to the filter selected in the app
+In added video table some columns were missing to solve this we created a SQL query for joining the added video table to the other tables and return the count of the video according to the filter selected
+Project Deliverables
+App in retool
+Tools used
+Retool
+Language/techniques used
+SQL
+Skills used
+SQL
+Databases used
+SQL Database
+What are the technical Challenges Faced during Project Execution
+Client wanted date filter and a video category filter but this data was not there in added video table
+How the Technical Challenges were Solved
+We had to join multiple data so that we can get category column and date column for applying filter
+Project Snapshots
+Project Video

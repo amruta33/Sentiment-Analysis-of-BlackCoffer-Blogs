@@ -1,0 +1,62 @@
+Data integration and big data performance using Elasticsearch
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT & Consulting
+Services:
+Software, Business Solutions, Consulting
+Organization Size:
+200+
+Project Objective
+Migrate existing databases from Postgres to elastic search since Elasticserach performs better in search operations. In addition to this, all of the backend javascript also needed to be changed in order to query the new elasticsearch database.
+Project Description
+The client’s website was a visualization tool. It also had GUI to add filters. To make the visualizations, at least 50,000 records needed to be pulled from the Postgres database whose size would be around 200mbs. This would take a lot of time (nearly 20-30 secs). Adding filters would take additional time. So our task was to move the entire database over to Elasticsearch from postgres since it is way more faster in search operations and also filtering data. Since the database was changed, we also had to write new backend code that would now query the Elasticsearch database.
+Our Solution
+Setup ELK stack (Elasticsearch, Logstash, Kibana) on AWS EC2 instance.
+Write a pipeline file (.conf file) which is used to ingest data from postgres to elasticsearch. The datatypes of cloumns, unique constraints, datetime formats etc., are all defined in this file. This is executed with the help of logstash.
+Once the data is inserted, it can be queried in the kibana’s built in query compiler. Here we can check the veracity of the data.
+Identify the code in the backend that needs to be changed.
+Replace this code with new code that would now query elasticserach. We use elastic_query_builder module for this.
+Testing Postgres and Elasticsearch performance.
+Project Deliverables
+Setup ELK stack (Elasticsearch, Logstash, Kibana) on AWS EC2 instance.
+Pipeline i.e; logstash file
+New working backend code for elasticsearch
+Commands to check elastic data.
+Customizable logstash pipeline
+Tools used
+Elasticsearch
+Postman
+Kibana
+Logstash
+Python
+Javascript
+Amazon Web Services
+Postgres
+Docker
+Git Bucket
+Github
+Language/techniques used
+Javascript
+Json
+Domain-Specific Language for elasticsearch
+bash
+Skills used
+Elasticsearch query knowledge
+Postgres query knowledge
+Networking
+Javascript
+Backend web stack
+Databases used
+Postgres
+Elasticsearch
+Web Cloud Servers used
+Amazon Web Services (AWS)
+What are the technical Challenges Faced during Project Execution
+Sometimes for large responses from elasticsearch ( size above 500mb), time taken was above 30 secs.
+How the Technical Challenges were Solved
+To solve the above mentioned problem, we used gzip in the request url’s header. This significantly reduced the execution times.
+Business Impact
+Earlier postgres infrastructure which took around 20-30 secs now too consistently less than 10 secs to perform filter and search operations. This would contribute to a better user experience.
+Project Snapshots

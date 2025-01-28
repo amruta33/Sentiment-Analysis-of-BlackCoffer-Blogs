@@ -1,0 +1,41 @@
+Splitting of Songs into its Vocals and Instrumental
+Client Background
+Client:
+A leading Entertainment firm in the USA
+Industry Type:
+Entertainment
+Services:
+Music
+Organization Size:
+100+
+Project Objective
+The objective of this project is to split a song into its vocals and instrumental.
+Project Description
+The project aims at taking a Hindi language song as input and separating the vocals(lyrics) from the instrumental music of the song. Save both the vocals and instrumental files separately as output.
+Our Solution
+I have used Python programming language for this project. The use of a Python library called Spleeter developed by Deezer has been made to achieve our goal.
+Spleeter
+is Deezer source separation library with pretrained models written in Python and uses Tensorflow. It makes it easy to train source separation model (assuming you have a dataset of isolated sources), and provides already trained state of the art model for performing various flavor of separation :
+Vocals (singing voice) / accompaniment separation (
+2 stems
+)
+Vocals / drums / bass / other separation (
+4 stems
+)
+Vocals / drums / bass / piano / other separation (
+5 stems
+)
+2 stems and 4 stems models have high performance on the
+musdb
+dataset.
+Spleeter
+is also very fast as it can perform separation of audio files to 4 stems 100x faster than real-time when run on a GPU.
+Project Deliverables
+Python tool that takes Hindi song as input and gives two audio files as output: vocals file and instrumental file.
+Language/techniques used
+Python
+Models used
+2 Stems model
+Skills used
+Advanced Python programming
+Project Snapshots

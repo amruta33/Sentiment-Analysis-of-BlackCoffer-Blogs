@@ -1,0 +1,63 @@
+Statistical Data Analysis of Reinforced Concrete
+Client Background
+Client:
+A leading research institution in the middle east
+Industry Type:
+Research
+Services:
+R&D
+Organization Size:
+1000+
+Project Objective
+Conducting statistical data analysis on the data provided for different types of reinforced concrete (using 3 different fibers – Steel, Date Palm and Polypropylene fibers) and also helping in preparing good research paper based on laboratory data.
+Project Description
+The project had two phase:
+Phase 1:
+In this phase, we had to do a comprehensive analysis on the data given and finally build statistical models for the variables present. The main motive was to understand the behaviour of concrete based on various parameters – Compressive strength, Flexural strength, water absorption capabilities of the concrete and many more. The analysis should include, but was not limited to:
+Comparison of Mo (control mix) with all mixes at 28 days for each parameter test
+Comparing all parameters for all specimens (all concrete mixes) with 28 days and also 6 months heat-cool and wet-dry
+all other expected analysis we could see you and do
+Phase 2:
+In this phase, we had to develop a structure for the research paper based on the results and analysis. The paper included sections – Abstract, Introduction ( literature, background and objective), Experimental program ( materials and methods), Results and discussion ( analysis and interpretation) and Conclusion ( summary, insights and remarks).
+Our Solution
+Providing a Comprehensive analysis for the concrete data – showcasing the key insights from it based on the parameters (compressive strength, etc). On the basis of results from the analysis, research paper was drafted which included all the deliverable.
+Project Deliverable
+A manuscript (drafted article) with the following:
+Abstract
+Introduction ( literature, background and objective)
+Experimental program ( materials and methods)
+Results and discussion ( analysis and interpretation)
+Conclusion ( summary, insights and remarks)
+References
+Tools used
+Tools used:
+Jupyter – Notbebook (Python)
+Numpy
+Pandas
+Sklearn
+Matplotlib
+Seaborn
+MS Excel
+Google spreadsheets
+Language/techniques used
+Python
+Statistical Modelling
+Statistical Inference
+Models used
+Statistical models – linear, polynomial, exponential and logarithmic models build for showcasing behavior of concrete mixes due to mixing of different fiber content and its effect on different parameters specified above.
+Skills used
+Coding – Python
+Performing statistical analysis – extracting inferences
+Building statistical models – through python or through Excel and its counterparts.
+Databases used
+No database was used.
+Web Cloud Servers used
+No Cloud server was used.
+What are the technical Challenges Faced during Project Execution
+The Challenges faced during project execution are:
+Getting statistical models from seaborn libraries, there is no direct way to get the models from the graphs created from data.
+Building models in excel and validating it (didn’t know how, had to learn it before applying it).
+How the Technical Challenges were Solved
+I had to use different libraries for building the models, later on turned to MS excel and spreadsheet because they were building models and were also able to showcase it on the data itself. For this, I learned how to build models on the aforementioned software through YouTube and blogs.
+Project Snapshots
+Project Video

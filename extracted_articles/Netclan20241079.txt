@@ -1,0 +1,34 @@
+Advanced AI for Handgun Detection
+Client Background
+Client:
+A leading tech firm in the Middle East
+Industry Type:
+Security
+Services:
+Security services
+Organization Size:
+100+
+The Problem
+Detecting Handguns in images and videos.
+Our Solution
+We use Yolov7 instance segmentation model to detect and provide coordinates for handguns.
+Solution Architecture
+Linux 22.04
+Yolo
+Deliverables
+Trained model of yolov7 instance segmentation
+Tools used
+Openimages
+Roboflow
+Yolov7
+Language/techniques used
+Python
+Models used
+Yolov7_mask
+Skills used
+Deeplearning
+Programming
+What are the technical Challenges Faced during Project Execution
+Retrieving handgun images in bulk from opensource.
+How the Technical Challenges were Solved
+Found Openimages dataset with good amount of required images

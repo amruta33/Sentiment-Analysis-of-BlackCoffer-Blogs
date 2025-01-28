@@ -1,0 +1,317 @@
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+Client Background
+Client:
+A leading healthcare tech firm in the USA
+Industry Type:
+Healthcare
+Products & Services:
+Healthcare Solution
+Organization Size:
+1000+
+Problem Statement
+Overview:
+The AI chatbot is required to assist eye care patients with various tasks, including booking appointments, tracking lens order statuses, reviewing patient dues, sending statements, and answering general questions about their eye exams and the practice.
+Requirements:
+Use of open-source LLM models like Llama, with training on custom data.
+Implementation of Q&A from custom static data.
+SaaS deployment to serve multiple hospitals/practices.
+Demonstration of sample chats using the custom-trained model early in the project.
+Deployment on optimized servers (preferably CPU-based for execution, GPU-based acceptable for training).
+Periodic testing, transition, and demos before payment release.
+Provision of APIs for communication with databases to fetch dynamic data.
+Solution
+Solution Overview:
+Develop and deploy a custom-trained AI chatbot using an open-source LLM model (such as Llama) to assist eye care patients. This solution will be implemented as a SaaS offering, enabling multiple hospitals and practices to utilize the chatbot. The project will include the training of the LLM model on custom data, development of APIs for dynamic data interaction, and deployment on optimized servers.
+Steps:
+Model Training:
+Train the Llama model with custom data specific to eye care patient queries.
+API Development:
+Develop APIs to communicate with the hospital’s database for dynamic data retrieval (appointment booking, order status, patient dues).
+Deployment:
+Deploy the chatbot as a SaaS solution using optimized servers (CPU for execution, GPU for training).
+Testing and Demo:
+Conduct periodic testing and demos to ensure functionality and transition smoothly.
+Sample Chat Demonstration:
+Provide sample chats to demonstrate the effectiveness of the custom-trained model.
+Technology Used
+LLM Model:
+Llama or another suitable open-source LLM model, trained with custom data only.
+Backend:
+Python (preferred), with a possibility of using C# for backend implementation if feasible.
+Deployment:
+Optimized CPU-based servers for execution, with GPU-based servers for initial model training.
+APIs:
+Custom-developed APIs for database interaction.
+Deliverables
+Custom-Trained LLM Model:
+A Llama model trained with custom eye care data.
+APIs:
+APIs to handle appointment bookings, order status checks, patient dues reviews, and statement sending.
+SaaS Deployment:
+Deployment of the chatbot as a SaaS solution, accessible by multiple hospitals/practices.
+Sample Chats:
+Demonstration of the chatbot’s effectiveness with sample chats using the custom-trained model.
+Documentation:
+Detailed documentation of the technology stack, APIs, deployment steps, and user guide.
+Business Impact
+Improved Patient Experience:
+Patients can easily book appointments, track orders, and get answers to their queries, leading to higher satisfaction.
+Operational Efficiency:
+Automation of routine tasks reduces the workload on staff, allowing them to focus on more critical tasks.
+Cost Savings:
+Utilizing open-source tools and optimized servers minimizes costs, avoiding recurring expenses associated with licensed software.
+Scalability:
+SaaS deployment allows multiple hospitals/practices to use the chatbot, enhancing scalability and reach.
+Data-Driven Insights:
+Custom APIs enable real-time data interaction, providing valuable insights into patient interactions and operational metrics.
+By leveraging the power of open-source LLM models and custom training, this AI chatbot will significantly enhance patient interaction and operational efficiency for eye care providers.
+Sample Chat Scenarios
+Milestone 1 Chat Samples
+Appointments
+Sample 101: Booking an Appointment
+Patient:
+Hello, this is John Doe. I would like to book an appointment at the eyecare location as soon as possible. I’m experiencing issues with my vision. Here are my details:
+Name:
+John Doe
+DOB:
+January 1, 1980
+Preferred Appointment Date:
+June 10, 2024
+Preferred Time:
+Morning, if possible
+Reason for Visit:
+Blurred vision and eye discomfort
+Please call me back at your earliest convenience to confirm the appointment or suggest an alternative time. You can reach me at the contact number provided above. Thank you.
+Best regards,
+John Doe
+ChatBot:
+Thank you for sharing the details. Could you please provide a phone number and email address?
+Patient:
+555123456,
+hello@blackcoffer.com
+ChatBot:
+Can you please confirm the following details?
+Phone Number:
+555123456
+Email:
+hello@blackcoffer.com
+Patient:
+Yes, it’s correct.
+ChatBot:
+Thanks for the details. We have sent you an OTP on the registered email and phone number. Can you please enter the OTP?
+Patient:
+1111
+<<If location name is not found in our location API, the chatbot will ask for location again. If found, the chatbot saves the location ID for further use.>>
+ChatBot:
+Thank you for the validation. Please choose a provider from the list:
+Ales Bru
+Juhn Smith
+Adam Blake
+Patient:
+I’ll go with Ales Bru.
+<<Validation of entered data, check if all required details are given. Check for available slots with provided preference.>>
+ChatBot:
+Thanks, I see the following open slots on June 10, 2024:
+10:00 AM – 10:20 AM
+10:20 AM – 10:40 AM
+12:20 PM – 12:40 PM
+Patient:
+I’ll take the 10:00 AM slot.
+ChatBot:
+Alright! Can you please confirm the following details?
+Patient Information:
+Name:
+John Doe
+Date of Birth:
+January 1, 1980
+Contact Number:
+(555) 123-456
+Email:
+hello@blackcoffer.com
+Appointment Details:
+Date:
+June 10, 2024
+Time:
+10:00 AM
+Provider:
+Ales Bru
+Reason for Visit:
+Blurred vision and eye discomfort
+Patient:
+Looks good.
+<<If the patient says data is not correct, ask which data is incorrect and have the user re-enter.>>
+ChatBot:
+Your appointment is scheduled. Thanks for choosing eyecare location! Is there anything else I can help you with?
+Patient:
+Nothing as of now.
+ChatBot:
+Thanks, have a great day!
+Sample 102: Pediatric Patient with Vision Issues
+Patient:
+Hello, this is Olivia Brown. I’d like to book an eye examination appointment for my child at the eyecare hospital. My child has difficulty seeing the board at school. Here are the details:
+Parent’s Name:
+Olivia Brown
+Child’s Name:
+Lily Brown
+DOB:
+June 1, 2012
+Preferred Appointment Date:
+Next Tuesday
+Preferred Time:
+Afternoon, if possible
+Reason for Visit:
+Difficulty seeing the board at school
+Please call me back at your earliest convenience to confirm the appointment or suggest an alternative time. You can reach me at the contact number provided above. Thank you.
+Best regards,
+Olivia Brown
+(555) 789-0123
+ChatBot:
+Thank you for sharing the details. Could you please provide an email address and date of birth?
+Patient:
+hello@blackcoffer.com
+, DOB is December 5, 2000
+ChatBot:
+Can you please confirm the following contact details?
+Phone Number:
+(555) 789-0123
+Email:
+hello@blackcoffer.com
+DOB:
+12-05-2000
+Patient:
+Yes, it’s correct.
+ChatBot:
+Thanks for the details. We have sent you an OTP on the registered email and phone number. Can you please enter the OTP?
+Patient:
+1111
+<<Validation of entered data>>
+<<Get List of Providers>>
+ChatBot:
+Thank you for the validation. Please choose a provider from the list:
+Dr. Emily Thompson
+Dr. Mark Davis
+Dr. Susan Lee
+Patient:
+I’ll go with Dr. Emily Thompson.
+<<Validation of entered data, check if all required details are given>>
+<<API should convert next Tuesday’s date and send date to API>>
+<<Check for available slots with provided preference>>
+ChatBot:
+Let me check the availability of the appointment.
+ChatBot:
+I see the following open slots on June 18, 2024:
+2:00 PM
+2:20 PM
+3:00 PM
+Patient:
+Let’s book the 2:00 PM appointment.
+ChatBot:
+Alright! Can you please confirm the following details?
+Patient Information:
+Parent’s Name:
+Olivia Brown
+Child’s Name:
+Lily Brown
+Date of Birth:
+December 5, 2000
+Contact Number:
+(555) 789-0123
+Appointment Details:
+Date:
+June 18, 2024
+Time:
+2:00 PM
+Provider:
+Dr. Emily Thompson
+Reason for Visit:
+Difficulty seeing the board at school
+Patient:
+Yes, they are correct!
+<<API Call>>
+ChatBot:
+Your appointment is scheduled. Thanks for choosing eyecare location! Is there anything else I can help you with?
+Patient:
+Nothing as of now.
+ChatBot:
+Thanks, have a great day!
+Sample 103: Struggling to Get Required Information from Patient
+Patient:
+Hello, I need to book an appointment.
+ChatBot:
+Sure, I can help with that. Could you please provide your name, date of birth, phone number, email, and reason for your visit?
+Patient:
+It’s John.
+ChatBot:
+Thank you, John. Can I have your full name (first and last) and date of birth?
+Patient:
+Uh, John… I think it’s in your system.
+ChatBot:
+To ensure we have the correct information, I’ll need your full name (first and last) and date of birth. This helps us locate your records accurately.
+Patient:
+Oh, okay. It’s Johnathan Smith. I was born on April 3, 1982.
+<<Validation of data>>
+ChatBot:
+Thank you. Could you please provide a contact number and email?
+Patient:
+Um, hold on. I think it’s… (555) 123-7890? And I don’t have an email address.
+<<Validation of data>>
+ChatBot:
+Thank you. Just to confirm, your contact number is (555) 123-7890, correct?
+Patient:
+Yes, that’s right.
+<<Validation of data>>
+ChatBot:
+Thanks for the details. We have sent you an OTP on the registered phone number. Can you please enter the OTP?
+Patient:
+1111
+<<Validation of data entered>>
+<<Get List of Providers>>
+ChatBot:
+Thank you for the validation. Please choose the reason for your visit from the following:
+<<Show cards>>
+Patient:
+Selects one card
+ChatBot:
+Great. Do you have any preferred dates and times for your appointment?
+Patient:
+Anytime next week is fine.
+ChatBot:
+Okay, let me check our availability for next week. Do you prefer mornings or afternoons?
+Patient:
+Uh, mornings, I guess.
+<<Validation of data>>
+<<Get List of Providers>>
+<<API call to get providers>>
+ChatBot:
+Please choose a provider from the list:
+Dr. Robert Anderson
+Dr. Laura Bennett
+Dr. Michael Clark
+Patient:
+I’ll choose Dr. Robert Anderson.
+<<Check for available slots with provided preference>>
+ChatBot:
+I see the following open slots for next week:
+Monday, 10:00 AM
+Wednesday, 10:20 AM
+Friday, 10:40 AM
+Patient:
+Let’s book the Monday, 10:00 AM appointment.
+ChatBot:
+Alright! Can you please confirm the following details?
+Patient Information:
+Name:
+Johnathan Smith
+Date of Birth:
+April 3, 1982
+Contact Number:
+(555) 123-7890
+Appointment Details:
+Date:
+Monday, next week (June 3, 2024)
+Time:
+10:00 AM
+Provider:
+Dr. Robert Anderson
+Reason for Visit:
+Bl

@@ -1,0 +1,31 @@
+KPI Dashboard for Accountants
+Client Background
+Client:
+A leading accounting firm in the USA
+Industry Type:
+Finance and Accouting
+Services:
+Accounting and financial services
+Organization Size:
+100+
+Project Objective
+The objective of the project was to create a simple and easy-to-use dashboard for the accounting firm Tech 4 Accountants to track their highest performers, target number of clients, current week sales, tickets, customer satisfaction, leads, conversion, company records, and finances.
+Project Description
+Our client, Andrew Lassise, wanted a KPI dashboard for Tech 4 Accountants that would help them track their business performance easily. The dashboard needed to have various charts and tables that would display important KPIs in a visually appealing manner.
+Our Solution
+To achieve our client’s objectives, we used Google Data Studio and Google Sheets to create a visually appealing and easy-to-use KPI dashboard. We created various charts and tables that displayed the KPIs that our client wanted to track. We used Google Sheets to store the data and created visualizations using Data Studio.
+Project Deliverables
+We delivered a KPI dashboard for Tech 4 Accountants that included charts and tables for tracking the highest performers, target number of clients, current week sales, tickets, customer satisfaction, leads, conversion, company records, and finances.
+Tools used
+Google Data Studio and Google Sheets
+Skills used
+Data Analytics
+What are the technical Challenges Faced during Project Execution
+There were no major technical challenges faced during the project execution as the data was stored in Google Sheets, and Data Studio allowed us to easily create visualizations using the data.
+How the Technical Challenges were Solved
+No major technical challenges were encountered, and the project was completed smoothly.
+Business Impact
+The KPI dashboard that we created for Tech 4 Accountants allowed them to track their business performance easily and make informed decisions. The dashboard helped them identify areas where they needed to improve and make changes to their business strategy accordingly.
+Project Snapshots
+
+Project Video

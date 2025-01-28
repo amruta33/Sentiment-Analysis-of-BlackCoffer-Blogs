@@ -1,0 +1,39 @@
+Create a Knowledge Graph to Provide Real-time Analytics, Recommendations, and a Single Source of Truth
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+Retail
+Services:
+Retail Business
+Organization Size:
+100+
+The Problem
+The Client was using NoSql Database which was slow and did not provide real-time response for complex queries. The data had many Connections and it was difficult to represent them in NoSQL or Relational Databases.
+Our Solution
+Create a Knowledge Graph and Provide Real-time Analytics and Recommendations using Machine Learning.
+Solution Architecture
+Neo4j was Installed on a Cloud VM based on Linodes.
+Deliverables
+Knowledge graphs and Data Pipelines are used to Populate the Graph.
+API’s to Perform CRUD operations in real-time.
+Tools used
+Neo4j
+Postman
+Language/techniques used
+Python
+JSON
+Models used
+Node-Relationship model
+Skills used
+Programming
+Data Engineering
+Data Analytics
+Databases used
+Neo4j
+Web Cloud Servers used
+Linode
+What are the technical Challenges Faced during Project Execution
+Integration of Firestore with Neo4j without any native integration method or driver.
+How the Technical Challenges were Solved
+The challenge was solved by using api to retrieve data from Firestore.

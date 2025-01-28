@@ -1,0 +1,35 @@
+BERT-Based Classification of Individuals and Organizations into Two Categories Using Natural Language Processing
+Client Background
+Client:
+A leading IT & tech firm in the USA
+Industry Type:
+IT
+Products & Services:
+IT Consulting, IT Support, SaaS
+Organization Size:
+200+
+The Problem
+This project aims to classify people and different organizations into two categories using BERT-based models for natural language processing.
+Our Solution
+Utilized pre-trained BERT-based models for text classification.
+Fine-tuned the models on the sample dataset of the provided dataset for optimal performance.
+Implemented an evaluation metric to assess the model’s accuracy.
+Giving the Classification report and accuracy.
+Solution Architecture
+Deliverables
+people-org-classification-using-bert.ipynb
+Tech Stack
+Tools used
+Kaggle notebook
+Language/techniques used
+python, deep learning
+Models used
+BERT Based Classifier
+Skills used
+Data Science
+What are the technical Challenges Faced during Project Execution
+The problem was the higher GPU limit is required to process the big dataset.
+How the Technical Challenges were Solved
+We shifted our notebook from Google Colab to Kaggle Notebook as it offers more GPU usage limits. Also, we took sample data from a given big dataset and processed it quickly.
+Business Impact
+The project successfully implemented a text classification solution using BERT-based models. The model achieved promising results in classifying people into organizational categories. The documentation outlines the steps from data loading to model training and evaluation, providing a comprehensive project overview.

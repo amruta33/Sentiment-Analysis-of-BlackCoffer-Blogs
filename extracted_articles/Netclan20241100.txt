@@ -1,0 +1,47 @@
+A web-based dashboard for the filtered data retrieval of land records
+Client Background
+Client:
+A Leading Real Estate Firm in the USA
+Industry Type:
+Real Estate
+Services:
+Land, Infrastructure, Real Estate, Investment
+Organization Size:
+100+
+Project Description
+The client’s own raw database needed to be converted into a dynamic web application with modern features like user management and subscription where users could explore land records as per their wish.
+Our Solution
+Created the web application as per client needs.
+Added user functionality to handle signup/logins and added authorization middlewares to protect routes from unwanted access.
+Transformed raw data into a meaningful NoSQL-based database with a proper schema being served as an instance on a cloud service named
+‘ MongoDB Atlas ‘.
+Project Deliverables
+Pushed code to the required GitHub repository.
+Tools used
+– Vanilla javascript
+– Javascript Frameworks ( Nodejs, express , cors )
+– Postman
+Language/techniques used
+– JavsScript
+– Backend Service setup ( express, cors , js )
+– Fronted logic setup ( HTML , CSS , JavaScript , Jquery )
+Models used
+Backend: An API service created to handle land records database and queries made by users.
+Frontend: A frontend client is available as a web application where users can signup and access land records.
+Skills used
+JavaScript Programming, APIs, JavaScript Frameworks ( NodeJS, Express  , cors ) , Web Design, NoSQL querying in MongoDB.
+Databases used
+MongoDB (NoSQL)
+Web Cloud Servers used
+MongoDB Atlas
+What are the technical Challenges Faced during Project Execution
+– UI component creation
+– User authorization middleware creation
+– Querying data in NoSQL
+How the Technical Challenges were Solved
+– Created and extended UI components to handle filters like owners, date fields, and area ranges on land records.
+– API and Frontend are separately built for easier team management of tasks.
+– Using a cloud-based MongoDB instance provided support for teams to work without any problems with accessibility.
+Business Impact
+– Created a platform for clients’ business.
+– Transformed his raw data into meaningful business applications.

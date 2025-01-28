@@ -1,0 +1,51 @@
+Integration of a product to a cloud-based CRM platform
+Client Background
+Client:
+A Leading Logistics Firm Worldwide
+Industry Type:
+Logistics
+Services:
+Import, Export, Supply Chain, Logistics, Trades
+Organization Size:
+500+
+Project Description
+The main challenge faced by the team was the integration of the two systems themselves.
+Since one-by-one entering of records into each module is a mundane task and a waste of valuable time we proposed the automation using APIs.
+Our Solution
+The challenge was divided into two milestones and sub-tasks for each.
+1. First was the ingestion of existing data into the cloud-based CRM platform.
+2. Second was the question of automating the process of adding newer records to the cloud platform.
+Project Deliverables
+The client has been provided with python scripting handling bulk data ingestion to CRM and also the script to handle daily synchronization of data.
+Tools used
+– Python
+– MySQL Database
+– Postman
+– TeamViewer
+Language/techniques used
+– Automation
+– 3
+rd
+party APIs
+– Authentication methods
+– Multi-Threading of function calls
+– bat Scripts for easier running of scripts for the client
+Models used
+Python Frameworks like requests to build own custom client for consumption of APIs.
+Skills used
+Python Programming, Mult-threading, APIs
+Databases used
+The client provided a MySQL instance.
+Web Cloud Servers used
+Zoho
+What are the technical Challenges Faced during Project Execution?
+– Writing own client-side API-consumption code handling API calls from Authentication and Other Operations as per task requirements.
+– Debugging of API responses was messy.
+How the Technical Challenges were Solved
+– Multiple alternatives were discussed and implemented in python like conditional refreshing of API tokens.
+– Automation of daily synchronization handled by use of time deltas.
+– Logging of all operations to efficiently handle errors in the future.
+Business Impact
+– Automated workflow of the client
+– No need for dull tasks like data entry to CRM modules everything is taken care of using logic.
+URL

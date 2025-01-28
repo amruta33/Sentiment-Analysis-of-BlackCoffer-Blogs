@@ -1,0 +1,37 @@
+Impact of news, media, and press on innovation, startups, and investments
+Client Background
+Client:
+A leading research institution in the word
+Industry Type:
+Research, R&D
+Services:
+R&D
+Organization Size:
+1000+
+Project Objective
+Make data ready for predictive modelling.
+Making Google Data Studio dashboard.
+Project Description
+Phase – 1: In this project first of all we have to clean the data as the data was very noisy, we have to filter out only the needed columns of the data.
+Phase – 2: Finding co-relation between the pitchbook data and the other output files.
+Phase – 3: Making dashboard in Google Data Studio for the project.
+Our Solution
+We used pandas and numpy to clean the data and make useful for it to be used in predictive modelling. We have found the co-relation between the tempa msa pitchbook data and the output files like textual file, ai_ml_tm file etc. We have made the dashboard using the Google Data Studio.
+Project Deliverables
+We have provided a excel file consisting of clean data and the Google Data Studio report.
+Tools used
+Python, Google Data Studio, Google Chrome
+Language/techniques used
+Python Programming
+Models used
+Waterfall model used in this project.
+Skills used
+Data cleaning, Data Pre-processing, Data Visualisation are used in this project.
+Databases used
+We have used the traditional file systems as database storage.
+What are the technical Challenges Faced during Project Execution
+Cleaning the data was the major challenge faced while executing the project. The data has a lot of noise. It was difficult to find which data was useful and which data is not useful in this project. Secondly the co relation between the output files and pitchbook data. There was nothing common between both the datasets. So was difficult to find co-relation between them.
+How the Technical Challenges were Solved
+We used pandas dataframe to clean the data and make it ready for predictive modelling and used the Google Data studio to find insights between the different datasets.
+Project Snapshots
+Project Video

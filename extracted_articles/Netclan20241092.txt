@@ -1,0 +1,37 @@
+Medical Classification
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT Consulting
+Services:
+Software, Consulting
+Organization Size:
+100+
+Project Objective
+Classify the medical research paper into 0 if the medical research paper cannot be used in future medical research and 1 if the medical research paper can be used in research based on some research-related phrases.
+Train an ML/DL model on classified data.
+Project Description
+We have given an excel sheet of medical research paper text and provided some phrases to identify research papers that can be used for future medical research. If the phrase is not present in a research paper then it will not be used for research. After annotation, we need to find the best ML/DL model to train research data and evaluate the model on test data.
+Our Solution
+We have created a python script that can compare all medical research paper text to research phrases and annot 0 if research phrases are not present in a medical research paper and 1 if research phrases present in medical research paper.
+After annotation we have trained different machine learning and deep learning models like Bert base uncased using Tensorflow, bert large, XGBoost Classifier, Random Forest Classifier and Logistic Regression. Among these models we have chosen the best accuracy  parameters model. In our case the bert-base model performed good and gave 95% test accuracy.
+Project Deliverables
+ML/DL model which is trained on medical research classification data to classify other medical research papers.
+Tools used
+Google Colab notebooks, Tensorflow, PyTorch, Transformers, MS Excel
+Language/techniques used
+Python, Machine learning, Deep learning, Data Science, Natural Language Processing (NLP).
+Models used
+Tensorflow-Bert model, PyTorch LSTM model, Random Forest Classifier, XGBoost Classifier, Logistic Regression.
+Skills used
+Machine Learning, Deep learning, NLP, Python programming.
+Databases used
+used ms excel data
+What are the technical Challenges Faced during Project Execution
+There are various technical challenges faced during project execution:
+The research paper has a huge amount of text data so the model was giving space errors in colab notebooks.
+Find the best threshold value which gives best test accuracy.
+How the Technical Challenges were Solved
+To solve space error we have trained the model with lower batch size so this solved the error.
+To find the best threshold value we created the ROC AUC curve and Precision  Recall curve and checked best points where accuracy will be higher.

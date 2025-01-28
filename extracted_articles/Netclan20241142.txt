@@ -1,0 +1,37 @@
+Lipsync Automation for Celebrities and Influencers
+Client Background
+Client:
+A leading tech firm in India
+Industry Type:
+Entertainment
+Services:
+B2C
+Organization Size:
+100+
+Project Objective
+To change the lipsing of the original video with the new replaced audio.
+Project Description
+We needed to create an output video that will have the new lipsing according to the new replaced audio. Also we will have to change the actual audio with the new audio with automated editing.
+Our Solution
+We have created two different files which will perform 2 different operations 1
+st
+will replace the original audio with new and extract only video from original. 2
+nd
+will take the muted video and replaced audio and we will get the output of the new replaced audio lipsync. This is done by pre-defined model Wav2Lip on github.
+Project Deliverables
+2  google colab notebooks
+Tools used
+github
+Google drive
+Language/techniques used
+Python 3.6
+moviepy
+ffmpeg
+Models used
+Wav2lip
+Skills used
+Python programming
+Data science
+Databases used
+Provided by the company (Hrithik Roshan video files)
+Project Snapshots

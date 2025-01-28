@@ -1,0 +1,57 @@
+Azure Data Lake and Power BI Dashboard
+Client Background
+Overview
+Stone is a video bibliographic tool for journalists and other researchers.
+It allows users to capture, annotate and share their journeys through digital and physical space, producing verifiable logs and generating monetizeable video highlight reels that can be embedded in digital and other media – showcasing key moments and telling the story behind the story.
+Our mission is to address distrust and disinformation with transparency and authenticity, while simultaneously tilting the information ecosystem in favour of quality original work.
+Research is valuable. Make it Visible.
+Write In Stone.
+Website
+
+Company size
+2-10 employees
+Headquarters
+Blackheath, New South Wales
+Founded
+2017
+Specialties
+Research Transparency, Trust, Video Content, Journalism, Proof Of Work, and Bibliographic Standards
+Project Objective
+Working on Microsoft Azure Analytics Services
+Verifying that indicators are being gathered in an intended manner, in line with GDPR provisions
+Building and analyzing dashboards and, specifically, conversion funnels
+Project Description
+To determine whether the already implemented indicators in are in intended fashion (separated by where these indicators are placed in the currently constituted funnel)
+Implement New Indicators
+Research Logged
+Average Number of Highlights per Project
+Total Hours of Content Produced
+Total Hours of Content Watched
+Daily unique visitors engaging with Stone, including the landing page, public research page(s), and the research portal
+Assess the dashboard set up in Azure, refine the existing dashboard, and determine whether an alternative is preferable.
+Review, refine, and optimize the WIS conversion funnel(s)
+Our Solution
+Built a Power BI dashboard as per the requirement. Also built a separate dashboard for the metric data from Azure.
+Project Deliverables
+Power BI dashboard which contains indicators funnels, new indicators(Research logged, Average number of Highlights per projects, Total hours of content watched etc), visualizations  extracted from metric data.
+Tools used
+Power BI
+Azure
+Language/techniques used
+Power BI
+DAX
+Kusto Query
+Azure
+Skills used
+Data collection
+Data Analysis
+Data cleaning
+Feature engineering
+Querying
+Visualization
+Databases used
+Azure database
+Web Cloud Servers used
+Azure
+What are the technical Challenges Faced during Project Execution
+Difficulty in data collection.

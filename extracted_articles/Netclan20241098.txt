@@ -1,0 +1,37 @@
+Transform API into SDK library and widget
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT
+Services:
+Consulting, Marketing, Healthtech
+Organization Size:
+500+
+Project Objective
+Convert API documentation into SDK library and widget. Expected deliverables are SDK library and widgets for
+Web apps
+iOS apps
+Android Apps
+Project Description
+API documentation is available for a tool that allows customers to type in their medication and find the cheapest price near them. For partners who want to have it on their own site, currently using the API documentation but would like to ultimately be able to send them an embeddable widget that incorporates the tool on their site
+Our Solution
+We created a flutter widget that uses  SDK libraries that allows the customer to type their medication and find the cheapest price near them.
+This widget can be embedded in their web, android and IOS applications
+Project Deliverables
+1)SDK Library/Widget
+2)Sample flutter application
+Tools used
+Flutter
+Language/techniques used
+Dart
+Skills used
+1)Knowledge of dart language
+2)flutter app developing
+What are the technical Challenges Faced during Project Execution
+1 )Problems while fetching details of drugs and pharmacies
+2) Showing details of drugs and pharmacies in the widget
+How the Technical Challenges were Solved
+All technical challenges are solved by proper communication with the client and by logical analyzing of data
+Project Snapshots
+Project Video

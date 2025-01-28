@@ -1,0 +1,51 @@
+Data Studio Dashboard with a data pipeline tool synced with Podio using custom Webhooks and Google Cloud Function
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Products & Services:
+IT Consulting, SaaS
+Organization Size:
+300+
+The Problem
+The client needs a consolidated KPI dashboard that aggregates data from various applications and SaaS products. Currently, the data is scattered across different platforms, making it difficult to track key performance indicators (KPIs) effectively. The client wants a dashboard that automatically updates with new data, eliminating the need for manual updates. The dashboard should contain separate tabs for current week sales, tickets, customer satisfaction, leads, conversion, company records, and finances. Additionally, the client wants to use Google Cloud Functions to sync data regularly between the Podio data app and Google Sheets.
+Our Solution
+The proposed solution involves the creation of a KPI dashboard in Google Sheets, which will serve as a central hub for all the client’s data. This dashboard will be populated with data from various sources, including Google Sheets and the Podio data app. The data will be organized into separate tabs, each representing a different aspect of the business. The dashboard will be designed to automatically update with new data, removing the need for manual updates.
+The process begins with obtaining access to the data in Google Sheets. Once the data is accessed, a list of KPIs to be visualized will be prepared. The data from Google Sheets will then be connected to the Google Data Studio dashboard for visualization. The dashboard will be designed to align with the client’s goals, prioritizing the most important KPIs and positioning them at the top of the dashboard. The dashboard will also be protected to prevent further or accidental changes, ensuring that data can only be added or changed through designated data sheets. Collaborators will be invited via email, with specific roles assigned to ensure effective collaboration. The dashboard will be customized with brand-aligned colors and fonts to enhance its appearance and authority.
+In addition to the dashboard, webhooks will be created for the Podio data app deployed as a Google Cloud Function. This will enable regular data synchronization between the Podio data app and Google Sheets, ensuring that the dashboard is always up-to-date with the latest data.
+Solution Architecture
+Deliverables
+End-to-end data pipeline
+KPI Dashboard in Google Sheets with separate tabs for current week sales, tickets, customer satisfaction, leads, conversion, company records, and finances.
+Automatic update functionality to eliminate the need for manual updates.
+Webhook for the Podio data app deployed as a Google Cloud Function to sync data regularly.
+Tech Stack
+Tools used
+Python
+Google Sheets
+Google Data Studio
+Google Cloud Functions
+Podio data app
+Language/techniques used
+Python
+Javascript
+Skills used
+Data Analysis
+Data Visualization
+Cloud Functions
+API Integration
+Databases used
+BigQuery
+What are the technical Challenges Faced during Project Execution
+One of the main challenges was ensuring that the dashboard could seamlessly integrate data from various sources and update automatically.
+Another challenge was designing the dashboard in a way that aligns with the client’s goals and presents the data in a clear and actionable manner.
+How the Technical Challenges were Solved
+The first challenge was addressed by connecting the data sources to Google Sheets and setting up the dashboard to automatically update with new data. This was achieved by using Google Data Studio and Google Cloud Functions.
+The second challenge was addressed by focusing on the design and organization of the dashboard, ensuring that it aligns with the client’s goals and presents the data in a clear and actionable manner. This was achieved by prioritizing the most important KPIs and positioning them at the top of the dashboard, and by presenting supporting data as charts and tables to help decision-makers make sense of the KPI
+Business Impact
+The implementation of the proposed solution has significantly improved the client’s ability to track and manage key performance indicators (KPIs). Prior to the solution, the client was struggling with data fragmentation across different SaaS products and applications, which made it difficult to compile comprehensive insights. The KPI dashboard, now consolidated in Google Sheets, has streamlined this process, providing a unified view of the business metrics.
+This solution has also automated the data update process, saving valuable time and resources that were previously spent on manual updates. The automatic update feature has allowed the client to focus on analyzing the data rather than spending hours updating it.
+Additionally, the integration of the Podio data app with Google Sheets via Google Cloud Functions has improved data synchronization efficiency. Regular data synchronization ensures that the KPI dashboard is always up-to-date, providing real-time insights into the business performance.
+These improvements have led to enhanced decision-making processes within the client’s organization. With accurate and timely data, managers can now set and achieve goals more effectively. The consolidation of data has also facilitated cross-departmental collaboration, as teams can now access and share data easily.
+Overall, the solution has resulted in significant business impact, leading to improved operational efficiency, informed decision-making, and strategic planning

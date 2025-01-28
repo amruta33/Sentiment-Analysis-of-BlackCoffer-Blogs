@@ -1,0 +1,48 @@
+Data ETL: Local Service Ads Leads to BigQuery
+Client Background
+Client:
+A leading Marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+Upload daily data from Google Local Service Ads dashboard to BigQuery database.
+Project Description
+Extracts data from LSA dashboard for the last 24 hours.
+The data is uploaded to BigQuery database “lsa_lead_daily_data”
+The script runs every morning and is deployed to Heroku by the name “lead-details-to-db”.
+The data is collected only for the companies that are not marked in red in the “Missed Messages Notification Automation – Master File” sheet.
+The following data is uploaded:
+Number of Leads
+Cost Per Lead
+Lead Type
+Dispute amount to be approved
+Dispute amount approved
+Cost per Call
+Our Solution
+Use LSA API to extract data.
+Clean the data to make it readable and dispose the data not needed.
+Upload data to a BigQuery database everyday at a fixed time.
+Deploy to Heroku to run the script everyday.
+Project Deliverables
+A working deployed automated tool that runs everyday in the morning hours and uploads a report to database. Tool is monitored everyday.
+Tools used
+Heroku
+LSA API
+BigQuery API
+Sheets API
+Language/techniques used
+Python
+Skills used
+Data extraction, cleaning and summarising
+Databases used
+BigQuery –  lsa_lead_daily_data
+Web Cloud Servers used
+Heroku
+What are the technical Challenges Faced during Project Execution
+Making sure that the data uploaded is for the right company.
+How the Technical Challenges were Solved
+Monitoring daily logs and uploads for some time and making sure data was correct

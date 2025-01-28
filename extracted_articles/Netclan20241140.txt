@@ -1,0 +1,33 @@
+A Leading Firm in the USA, SEO and Website Optimization
+Client Background
+Client:
+A leading marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+Connect website to Search Console. Add Call Rail Code
+Project Description
+Connecting website to Google Search Console through Google Tag Manager.
+Connect website with CallRail.
+Our Solution
+Website connected to Google Search Console successfully.
+Added CallRail code to the website.
+Tools used
+kvCore
+Google Tag Manager
+Google Search Console
+CallRail
+Language/techniques used
+JavaScript
+Skills used:
+kvCore
+Google Tag Manager
+Google Search Console
+CallRail
+Javascript
+Project Snapshots
+Project website URL:

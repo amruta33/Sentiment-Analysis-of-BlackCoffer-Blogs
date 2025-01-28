@@ -1,0 +1,33 @@
+Incident Duration Prediction – Infrastructure and Real Estate
+Client Background
+Client:
+A leading research institution in the middle east
+Industry Type:
+Research
+Services:
+R&D
+Organization Size:
+1000+
+Project Objective
+To complete a Research Paper draft by training various Machine Learning models which can predict the Incident Duration based on various parameters given in the dataset and summarising the results.
+Project Description
+Given a set of researches, need to analyse and compare various machine learning and deep learning models to predict the Incident Duration for the given dataset. The dataset contained Short durations as well as Long durations. Build models for each set of durations, compare and get the best out of all.
+Our Solution
+Here, we had to predict the traffic incident duration with some machine learning tools and techniques i.e. XGBoost, SVR and Deep Learning algorithm using tensor flow. First two models were run on Python Interpreter whereas Deep learning model was run on R studio, all the three with the same dataset and then we had compared these models based on their MAE (mean absolute error). Initially, we had done a preliminary analysis of the collected incident duration data, to collect the statistical characteristics of all the variables used in our research.
+Project Deliverables
+Python Script for each model.
+Documentation for Research Work.
+Tools used
+Python Interpreter
+Language/techniques used
+Language Used: Python
+Libraries Used: pandas, sklearn, numpy, keras, pickle
+Models used
+XGBRegressor
+SVR
+SGDRegressor
+Sequential
+DecisionTreeRegressor
+Skills used
+Programming, Statistical Analysis
+Project Snapshots

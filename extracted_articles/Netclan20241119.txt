@@ -1,0 +1,44 @@
+Electric Vehicles (EV) Load Management System to Forecast Energy Demand
+Client Background
+Client:
+A leading energy consulting firm in the USA
+Industry Type:
+Energy
+Services:
+Energy solutions, Consultancy
+Organization Size:
+100+
+Project Objective
+Create a Machine learning solution to manage electricity for electric vehicles.
+Main Tasks:
+Percentage probability of  user plugin his vehicle today by user’s plugin date history
+Reduce the probability of plugin time according to user’s plugin time history
+Project Description
+We need to calculate the date and time probability that the user will plugin his vehicle today based on his plugin date and plugin time history. We also need to decrease time probability based on the user’s past time range.
+Our Solution
+We converted the user’s plugin data into binary values like 0 if the user hasn’t plugged-in his vehicle on that day and 1 if he plugged-in. We identified the driven distance based on the amount of charge used between two plug-in times. Then we trained the Ridge Regression ML model for identifying each day driven kilometer. From these kilometres we have identified the probability that user’s will plug-in today and it will increase day by day till the user does not plug-in his vehicle.
+For time probability we have used Probability Distribution Function (PDF) and Cumulative Distribution Function  (CDF). These functions will decrease probability according to the user’s time range.
+Project Deliverables
+2 python scripts to:
+Train regression model every day.
+Use model weights to generate probability values.
+Tools used
+Google Colab, VS Code, Google Drive, and MS Excel.
+Language/techniques used
+Python programming language, Data Analytics with numpy and pandas, Data Visualization with matplotlib, Statistics and Mathematics, Machine learning with SKlearn.
+Models used
+Ridge Regression Model
+Skills used
+Data Analytics, Data Visualization, Machine learning, Python, Statistics
+Databases used
+local data from MS Excel Sheet
+What are the technical Challenges Faced during Project Execution
+There are a lot of challenges faced during project execution
+At the start, we have only imaginary data so need to convert in a good format to apply machine learning models.
+Find the best machine learning model for the data.
+Decrease the time probability according to user’s time range
+How the Technical Challenges were Solved
+We have converted the data into weekday’s binary values like marked 0 if not plugged-in vehicle on that day and 1 if plugged and calculated driven distance by amount of charge used between two plugin dates.
+Tried different regression based machine learning models like Random Forest Regressor, XGBoost Regressor, Ridge Regression and checked accuracies of all models and choosed best one.
+For decreasing time probability we used Probability Distribution Function (PDF) and Cumulative Distribution Function (CDF). These functions decrease probability according to the user’s time range.
+Project Snapshots

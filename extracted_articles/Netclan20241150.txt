@@ -1,0 +1,60 @@
+Google Local Service Ads Missed Calls and Messages Automation Tool
+Client Background
+Client:
+A leading Marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Marketing consulting
+Organization Size:
+100+
+Project Objective
+A real time tool to send a report of missed calls and messages to the client.
+Project Description
+Extracts data from CallRail database for the last 5 minutes
+All the calls which are marked as “missed” and all messages in the data are sent in the form of a report to the client.
+The script runs every 5 minutes and is deployed to Heroku by the name “missed-messages”.
+The data is collected only for the companies that are not marked in red in the “Missed Messages Notification Automation – Master File” sheet.
+The following data is uploaded:
+Company Name
+Date
+Time
+Customer Name
+Contact No.
+Customer Location
+Call Type
+In case of messages:
+Company Name
+Date
+Time
+Customer Name
+Contact No.
+No. of messages
+Direction (Inbound/Outbound)
+Content
+Our Solution
+To provide data real time, schedule the tool to check for data every 5 minutes.
+Extract data from CallRail
+Filter out all answered calls
+Prepare report
+Get email ids from sheets
+Send email through SendGrid
+Project Deliverables
+An automated tool which provides real time updates to the client along with all information about the call.
+Tools used
+Heroku
+CallRail API
+SendGrid
+Sheets API
+Language/techniques used
+Python
+Skills used
+Data extraction, cleaning and summarising
+Databases used
+Google Big Query
+Web Cloud Servers used
+Heroku
+What are the technical Challenges Faced during Project Execution
+Sending correct reports only to the companies which are active
+How the Technical Challenges were Solved
+Using Google Sheet’s cell formatting in Python

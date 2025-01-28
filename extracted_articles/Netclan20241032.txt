@@ -1,0 +1,131 @@
+Cloud-Based Data Modeling and Analysis Platform with Drag-and-Drop Interface and OpenAI API Integration for Simulation Insights
+Client Background
+Client:
+A leading IT & tech firm in the USA
+Industry Type:
+IT
+Products & Services:
+IT Consulting, IT Support, SaaS
+Organization Size:
+100+
+The Problem
+Create a cloud-based solution where clients can upload datasets, use drag-and-drop functionality to select columns for data modeling, and receive the analysis results. The data analysis will be conducted using the OpenAI API, except for the mixed model, which will be handled manually. Then later user can do the simulation to get the insight of the dataset.
+Our Solution
+Develop a web-based application using frameworks like React for the frontend and Node.js for the backend. Establish secure methods for database access and data handling. Initially, run statistical analyses using Python and update the interface with results including Mean AUC, Mean Accuracy, Mean Log-Likelihood, Coefficients with p-values, Intercept, BIC, AIC, Y_pred, Y_test, and X_test. Allow users to visualize the dataset with different charts, such as heatmaps, line charts, and actual vs. predicted values. Over time, automate these analyses by integrating Python scripts with the backend. Deploy the application on Google Cloud, ensuring the solution supports different user roles and permissions, with robust testing and scalable infrastructure. Provide features for users to perform simulations and gain insights based on the analysis results.
+Deliverables
+Data Analysis Integration
+:
+OpenAI API
+: Integration for performing statistical analyses.
+Python Scripts
+: Manual handling of mixed model analyses.
+Metrics and Results:
+Analysis results including Mean AUC, Mean Accuracy, Mean Log-Likelihood, Coefficients with p-values, Intercept, BIC, AIC, Y_pred, Y_test, and X_test.
+Data Visualization
+:
+Charts such as heatmaps, line charts, and actual vs. predicted values for dataset visualization.
+API Endpoints and Descriptions:
+Test API
+Purpose:
+Fetch payload data and perform various data modeling tasks.
+Modeling Types:
+Logistic, ordinal, nominal, Poisson regression, multiple models, and mixed models.
+Details:
+This API retrieves the dataset from MongoDB, applies the specified statistical models, and returns the results.
+Data API
+Purpose:
+Store the output from the Test API in MongoDB.
+Details:
+This API takes the modeling results from the Test API and stores them in a specified MongoDB collection for future reference and analysis.
+Remove API
+Purpose:
+Delete stored outputs from MongoDB.
+Details:
+This API deletes specific records or datasets previously stored in MongoDB by the Data API based on provided criteria or identifiers.
+Mixed_Model_Identify API
+Purpose:
+Identify datasets suitable for mixed model analysis.
+Details:
+This API analyzes the dataset to determine if it is appropriate for mixed model applications, identifying key variables and structure.
+Type_of_Column API
+Purpose:
+Identify the types of columns in the dataset.
+Details:
+This API examines the dataset to determine the data types (e.g., categorical, ordinal, integer, real) of each column, which aids in data preprocessing and modeling decisions.
+Tech Stack
+Tools used
+Google Cloud, VScode, MongoDB
+Language/techniques used
+Flask framework, Python language, MongoDB as Database, OpenAI API
+Models used
+Logistic Model
+Purpose:
+Binary classification (e.g., yes/no outcomes).
+Details:
+Predicts the probability of a binary response based on predictors.
+Ordinal logistic Model
+Purpose:
+Ordinal outcome variables (e.g., ratings).
+Details:
+Models outcomes with a defined order but unknown distances.
+Nominal logistic Model
+Purpose:
+Categorical outcomes without order (e.g., types).
+Details:
+Models categorical responses with no inherent order.
+Poisson regression Model
+Purpose:
+Count data modeling (e.g., event occurrences).
+Details:
+Models the count of events within a fixed interval.
+Multiple regression Model
+Purpose:
+Multiple linear regression.
+Details:
+Predicts a continuous outcome using multiple predictors.
+Mixed Model
+Purpose:
+Hierarchical or grouped data.
+Details:
+Combines fixed and random effects for multi-level data.
+Cox Model
+Purpose:
+Survival analysis with time-to-event data.
+Details:
+Models hazard rates over time.
+Survival Model
+Purpose:
+Analyzes time until events occur.
+Details:
+Focuses on time-to-event data such as survival times.
+Skills used
+Prompt engineering, flask, data modelling.
+Databases used
+MongoDB
+Web Cloud Servers used
+Google Cloud
+What are the technical Challenges Faced during Project Execution
+1-
+Generating R-code through ChatGPT and Executing it in the Back-end
+:
+Integrating R-cloud services with the backend is complex. It involves setting up secure connections and ensuring compatibility with the existing infrastructure.
+2-
+Prompt Engineering
+:
+ChatGPT often struggles to generate complex code that meets specific client requirements. Refining prompts to improve code quality requires significant trial and error.
+3-
+Mixed Model Handling
+:
+Due to the complexity and dynamic nature of mixed models, using prompt engineering or manual methods is challenging. This often requires expert intervention to ensure accuracy.
+How the Technical Challenges were Solved
+Switching from R to Python
+:
+We replaced R with Python and executed scripts on Google Cloud Platform (GCP), which provided better compatibility, stability, and ease of managing dependencies.
+Improved Prompt Engineering
+:
+To ensure ChatGPT generated accurate code, we provided specific code snippets as templates for each task. This guided the AI and improved the quality and consistency of the generated code.
+Handling Mixed Models
+:
+We combined manual intervention with automated checks to manage the complexity of mixed models. Although initial results sometimes required corrections, iterative testing and refinement helped improve accuracy.
+Business Impact
+This is mainly used for healthcare field for data analysis enhancing decision-making efficiency and accuracy for users.

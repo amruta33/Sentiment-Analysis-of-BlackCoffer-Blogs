@@ -1,0 +1,67 @@
+AI solution for a Technology, Information and Internet firm
+Client Background
+Client:
+A leading Technology, Information and Internet firm in India
+Industry Type:
+IT
+Services:
+Emerging Technologies, 2030, and 2050
+Organization Size:
+10+
+The Problem
+The objective was to analyze, research, and propose data science solutions in the product based on the product design, use cases, and services.
+Our Solution
+Analyze each use case
+Analyze product design
+Analyze user type, controls per use cases
+For each use case and available product design,
+provide solution or scope of the data science capabilities
+List attributes needed in each of the product design screens
+List use cases are driven by the data
+For each data-driven use cases
+a. Research and design the data science solution
+b. List needed data
+c. List process
+d. List models
+e. List solution
+Help product design team with data science use cases
+Help product design team with data science solutions for each use case
+Deliverables
+Statement of Work (SoW) with a solution documentation
+Data science use cases document
+Data science solution for each use cases document
+Data Science methodology, algorithms needed, models, recommended and more in a good documentation
+Tools used
+Google docs
+Microsoft word
+Draw.io
+Excel
+Google Draw
+Language/techniques
+Python- Flask
+Models used
+K-Nearest Neighbours
+K-Means Clustering
+NLTK
+DeepAvlov
+Spacy
+Texttiling
+Eclat
+LSTM
+Skills used
+Aptitude for functionalities
+Problem-solving
+Communication
+Data Modelling
+Data Pipelining
+MLOps
+NLP
+Recommender systems
+Databases used
+Amazon S3
+Web Cloud Servers used
+AWS EC2
+Business Impact
+Collaboration with the client to identify the scope and use cases for the platform
+Cost Effective approach taken to document solutions
+Regressive R&D to find and document third-party solutions for certain use cases- saving cost and time.

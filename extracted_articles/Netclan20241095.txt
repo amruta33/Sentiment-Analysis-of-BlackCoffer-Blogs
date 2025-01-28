@@ -1,0 +1,36 @@
+An ETL Solution for Currency Data to Google Big Query
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT Consulting
+Services:
+Software, Consulting
+Organization Size:
+100+
+Project Objective
+Fetch currency data from Pure-clear API and store it to Google cloud BigQuery.
+Create a Google cloud function to automate the above process.
+Project Description
+We have given a pure-clear API and a google cloud account. We need to fetch currency data from that pure-clear API using python and need to store fetched data in Google Cloud Bigquery.
+We also need to automate the above process like the process runs on a daily basis and update the currency data on Bigquery.
+Our Solution
+We have created a python program that can fetch pure-clear API data. The API data was in JSON format but we needed table format so we used python package pandas. We converted json data to tabular format using pandas. After that, we connected python code to google cloud using google’s authentication module and then stored data frame (table) directly to BigQuery using the “.to_gbq” method.
+We also need to run the above process daily to update new data in BigQuery. For this Google cloud provides a “Cloud function” tool. In this, we can create a function and set up their running process. So we created a function and attached the above code to that function and set up a cloud function to run daily.
+Project Deliverables
+A Google cloud function that runs daily and updates data on Google BigQuery
+Tools used
+Cloud function, BigQuery of Google Cloud, Google Colab notebook, Python programming, Pandas
+Language/techniques used
+Python language and pandas module
+Skills used
+Python programming, Data handling, Google Cloud
+Databases used
+Google Cloud BigQuery
+Web Cloud Servers used
+Google Cloud Server
+What are the technical Challenges Faced during Project Execution
+Connecting google cloud to python code is challenging because Its credentials should be in a specified format otherwise it shows an authentication error.
+How the Technical Challenges were Solved
+To tackle this challenge we created a dictionary format (key-value pair) and stored all the authentication variables in the dictionary as a key value pair. Then we used google’s authentication library “google.auth” and passed a dictionary to the service_account method and stored it in different variables so we can store data from pandas dataframe to Google BigQuery.
+Project Snapshots

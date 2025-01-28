@@ -1,0 +1,63 @@
+ETL and MLOps Infrastructure for Blockchain Analytics
+Client Background
+Client:
+A Leading Blockchain Tech Firm in the USA
+Industry Type:
+AR/VR
+Services:
+Metaverse, NFT, Digital Currency
+Organization Size:
+100+
+Project Objective
+Code for extraction of the price of cryptocurrency
+Required real-time data of cryptocurrency and this is extracted from the cryptocurrency URL
+Forecast code for prediction of the price
+Built FastApi to reduce interaction complexity for the user
+Project Description
+ETL and MLOps Infrastructure for Blockchain Analytics this entire project completes in 4 outlines and stages. In the first segment data scraping for the price of the cryptocurrency. The second stage is, Loading the data into the Microsoft MYSQL server and Transforming data into the required shape for the automated process data Load into the Amazon RDS tool management service which knows as the Amazon relational database service, and creating DB instances (DB instance class – db.t3.small
+)
+.
+In the fourth stage, built the FastAPI for the get data to the fingertips and easily accessible for the client because it reduces the time to fetch the price of a particular cryptocurrency with a single click, and increases the efficiency of understanding.
+Our Solution
+This Project Module develops according to the Client’s Requirements which involves Data extraction of Cryptocurrency data from a given URL by the Client, it also changes the data format, and attributes nomenclature according to the requirements. After extracting the data its loads into Microsoft MYSQL Server for the transformation of data and for full automation process, used Amazon RDS and built the FastAPI.
+Project Deliverables
+–  Data Scraping code using Python
+–  ETL code for extracting, Transform and Loading into Microsoft MYSQL server
+–  AWS RDS (db.t3.samll) instances for storing data and for deployment
+–  Built FastAPI for getting the price of cryptocurrency
+Tools used
+– VC code and Google Collab
+– Microsoft MYSQL server
+– AWS RDS services
+Language/techniques used
+Data Scraping using Python
+ETL process to extract, load, and transform the data
+FastAPI using Python
+Amazon Cloud services
+Skills used
+– Data scraping using python
+– ETL setup
+– Aws web services
+– FastAPI using Python
+Databases used
+– Microsoft MYSQL server
+– Aws RDS (Amazon Relational Database services)
+Web Cloud Servers used
+-AWS RDS services
+What are the technical Challenges Faced during Project Execution
+Data scraping speed does not meet the expected speed (events/sec)
+API calls have their own limitation in requesting calls per sec
+Storing the huge amount of data
+How the Technical Challenges were Solved
+Get the Premium service of API calls (20 calls/sec)
+Used the AWS RDS for storing the data and for faster execution
+Business Impact
+This Project impact is directly responsible to the investors of the cryptocurrency.
+To get the prices of cryptocurrency on fingers tips and use it for buying and investing money in the right corner of the cap market of finance.
+It clearly impacts financially to the investors and helps them for investing purposes.
+The scope impact of product service is worldwide for purchasing any cryptocurrency in the world.
+To provide these impactful services, there is a tech team of Blackcoffer behind it.
+Project Snapshots
+Project website URL
+127.0.0.1:62190
+Project Video

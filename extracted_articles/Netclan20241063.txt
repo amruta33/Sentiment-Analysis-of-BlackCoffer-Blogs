@@ -1,0 +1,58 @@
+Google LSA Ads (Google Local Service Ads) – ETL tools and Dashboards
+Client Background
+Client:
+A leading marketing firm in the USA
+Industry Type:
+Marketing
+Services:
+Ads, Marketing, Campaign, Consulting
+Organization Size:
+200+
+The Problem
+The client has a Google LSA Ads Manager Account with about 100+ accounts and wishes to collect data available through the Google LSA API daily. The client wishes to set up a private Databases that is automatically created for newly added accounts and stores all of the collected data (Lead and Phone Call data). Finally, all collected data must be presented through the Google Looker Studio Dashboards, with the design layouts as suggested by the client.
+Our Solution
+The solution involves a number of Python-based ETL tools that are responsible for fetching the data from Google’s LSA API daily and updating the same in the Google BigQuery Databases.
+Two different tools run are:
+MCC Data Fetching tool.
+Lead Record data fetching tool.
+The fetched data is stored in BigQuery Databases on the client-provided (Google)manager account.
+Carefully curated Google Looker Studio dashboards implemented with client-suggested theme layout which are updated upon client request, represent a number of KPIs and graphs indicating major data trends.
+The designed dashboards have a number of data-controlling filters that filter the data account-wise and date-wise.
+Solution Architecture
+Deliverables
+Heroku deployed Python tools
+Google Looker Studio Dashboards
+BigQuery Database
+Maintenance service
+Tools used
+Python
+Google BigQuery
+Heroku
+Google Looker Studio
+Git
+Heroku CLI
+Language/techniques used
+Python
+GoogleSQL (BigQuery supported SQL)
+Looker Modeling Language (Looker ML)
+Git Commands
+Skills used
+Data Engineering skill to fetch data as per client needs.
+Data Processing to make it suitable for dashboards, databases
+Dashboard designing and data presentation skills
+Tool Deployment
+Database manipulation
+Data piplining
+Databases used
+Google BigQuery
+Web Cloud Servers used
+Heroku: Cloud Application Platform
+What are the technical Challenges Faced during Project Execution
+Google LSA API is slow, high data fetching timelines.
+BigQuery jobs fail, causing inconsistencies.
+How the Technical Challenges were Solved
+Entire data fetching operation requires 1-2 hrs daily, 2 separate tools run in asynchronously and populate two different databases, the data is grouped in the dashboards
+Regular weekly and monthly data refreshes update any inconsistent data.
+Business Impact
+Business clients are able to access important KPI’s without the need to understand the complexities involved behind the scenes.
+Allows clients to track their performances, responsiveness.

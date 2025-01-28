@@ -1,0 +1,71 @@
+Recommendation Engine for Insurance Sector to Expand Business in the Rural Area
+Client Background
+Client:
+A leading insurance firm in the globe
+Industry Type:
+Insurance
+Services:
+SaaS, Products, Insurance
+Organization Size:
+10000+
+Project Objective
+Develop the recommendation engine
+Item-based collaborative filtering based on the use case of the project
+Work on Streaming data platform i.e BangDb
+Data Generation for Testing the platform
+Project Description
+BangDB is the platform that manages the static data stored on the cluster and also works with live streaming data as Hadoop does. Wherever the bangdb is able to manage machine learning model deployment with their inbuilt parameter and hyper tuning parameters for each model.
+Streaming data from the client which relates to the customer details and the numbers of products offered by the client on their platform, such as Insurance, loans (Business Loans and Personal Loans), Mobile recharge, UPI transactions done by their platform, etc.
+They wanted the recommendation of other services provided by them to each of their customers who are using their platform.
+Our Solution
+This Project Module develops according to the Clients Requirements which involves item-based collaborative filtering based on customer behaviour, Firstly classify the customers into various segments on the basis of age, location, gender, and product usage. On the basis of RFM (marketing tactics to classify the customer on the basis of their purchase history, amount spend, and frequency of usage of product) classify them and recommend them the other services based on item-based collaborative filtering.
+We generated the synthetic data (90 Million events) for the testing of the recommendation model and its accuracy for recommending the other products to customers.
+Project Deliverables
+–   KPI of the Customers
+–   Recommendation model
+–   Graph databased model
+–   Data Generation code based on python (using copula-based on PyTorch)
+Tools used
+BangDb Tool (ML, AI, NoSQL database supported)
+Graph Databased
+Google Colab (Data file generation)
+Tableau for data visualization
+Language/techniques used
+Linux cloud machine
+Python
+Graph Database
+Data visualization tools
+Models used
+-K means model for clustering
+-Recommendation Engine model
+-Collaborative based filtering model
+Skills used
+– Machine learning
+– NoSQL Database
+– Graph database
+– Data Generation using python
+– Linux
+– Data Visualization
+Databases used
+– BangDB
+– Graph Database
+– Microsoft MYSQL server
+Web Cloud Servers used
+AWS cloud service
+What are the technical Challenges Faced during Project Execution
+Decide the Recommendation Engine based on the use case
+Finding the RFM score and classifying the customers into clusters
+Graph Model to define the relations of customers with each service which they are using
+Synthetic data generation(90 Million events) and around 1.5 Gb structured data.
+How the Technical Challenges were Solved
+Item-based collaborative filtering solves the issue of recommendation because we are dealing with almost 14- 15 services.
+Clustering of customers based on their similarities
+Measure the RFM score, and group and classify them based on their scores.
+Graph database provides to reduce complexity and increase the processing speed.
+Data generation is one of the difficult tasks and generating relational data across 29 different streams using copula and UUID python library function which is based on PyTorch.
+Business Impact
+It is Qualitative and Quantitative impact on economically where customers are a direct impact of these projects in their life.
+It is suggesting to the customers what services they have to utilize from the provider and this is a direct impact of the product on the customers.
+Product is providing the action statement of the usage of services by the customers and impacts them economically as well.
+The scope impact of product service is Nationwide or statewide.
+To provide these impact-full services, there is a tech team of Blackcoffer behind it

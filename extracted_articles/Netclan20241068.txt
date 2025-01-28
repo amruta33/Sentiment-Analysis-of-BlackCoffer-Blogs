@@ -1,0 +1,37 @@
+An ETL solution for an Internet Publishing firm
+Client Background
+Client:
+A leading internet publishing firm in Singapore and Australia
+Industry Type:
+Internet Publishing
+Services:
+peer-to-peer car sharing platform where you can rent a large variety of cars, always nearby at great value
+Organization Size:
+100+
+Project Objective
+Fetch all call logs using zendesk api from drivelah server
+Analyse call logs and  number of calls made by a particular phone number to company and fetch recent call timing
+Project Description
+We need to fetch last month’s call details (from user, to user, call_time, call_status ) using zendesk api.
+Then we need to analyse all call logs and need to identify the number of calls made by a particular user to the company and the most recent call timing from the company server.
+Our Solution
+To fetch all call logs using zendesk api we used python language in programming. When we checked call details in the zendesk api, the details were in json format which is very tough to understand the calls details. So first we have fetched only needed details (call made from person, to person and call timing) converted into tabular format. In tabular format it was easy to identify call details.
+After that we need to identify the number of calls made by the user to the company in the last month.  We used the python pandas module here which is very fast and effective to handle tabular data. First we separated the user who made a call to the company last month and then counted each unique user’s call records. For recent dates we used python’s datetime module which can easily identify recent date time.
+Project Deliverables
+2 python scripts
+for fetching call details and converting into table format
+for identifying number of calls made and recent call timing
+Tools used
+VS Code, Google Drive, and MS Excel.
+Language/techniques used
+Python programming language, Data Analytics with numpy and pandas, python datetime.
+Skills used
+Data Analytics,, Python, Mathematics
+Databases used
+local data from MS Excel Sheet
+What are the technical Challenges Faced during Project Execution
+First one was the api data in json format with other unwanted data so it was a little difficult for us to identify the number of calls and other information from direct json data.
+The date format in the api data is not appropriate for us  to handle. Because the date is  stored in string format, it was difficult to compare dates with one another and identify recent ones.
+How the Technical Challenges were Solved
+For the first technical challenge we first took only useful details from api’s json format and converted these details in tabular format. In python we can easily handle tables with pandas dataframe and can apply whatever operation we want to collect details.
+For the second one we know that it would be difficult to handle dates in string format. So we first converted dates to a proper datetime format using python’s datetime module. It has a lot of built in functionalities which can easily compare dates with one another.  So from comparison we have identified recent dates of calls.

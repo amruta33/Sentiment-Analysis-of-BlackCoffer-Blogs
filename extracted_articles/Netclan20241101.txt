@@ -1,0 +1,47 @@
+Integration of video-conferencing data to the existing web app
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT & Consulting
+Services:
+Software, Business Solutions, Consulting
+Organization Size:
+200+
+Project Description
+Integration of 3
+rd
+party APIs to client’s platform.Client required meeting/conference data from sites like gotomeeting/zoom.
+Our Solution
+Using APIs fetched data from different platform and rendered data into client’s application.
+Modifed web application with a UI to handle form data accepting dates as a timeframe – which then makes a request to the API being handled at server end and returns the meeting data from the required source.
+Project Deliverables
+Pushed code to client’s github repository.
+Tools used
+– Python
+– Postman
+Language/techniques used
+– Automation
+– 3
+rd
+party APIs
+– Authenication methods
+– Multi-Threading of function calls ( authentication of api client )
+– UI component design to get dates from user-end
+Models used
+Python Framework- Django , requests
+Skills used
+Python Programming, APIs , Multi-threading , Web Developement
+Databases used
+Default project postgreSQL
+Web Cloud Servers used
+Heroku
+What are the technical Challenges Faced during Project Execution
+– UI creation for handling form data
+– Managing and Validating form data to process request at server end
+How the Technical Challenges were Solved
+– Created autmated functions as views in django to handle requests made to video-conferencing platform.
+– Which then returns meeting data as per user’s wish.
+Business Impact
+– Instead of extracting meeting data and adding it to all users
+any authorized user can get meeting data as his wish.

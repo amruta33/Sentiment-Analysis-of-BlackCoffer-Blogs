@@ -1,0 +1,39 @@
+Optimize the data scraper program to easily accommodate large files and solve OOM errors
+Client Background
+Client:
+A leading tech firm in India
+Industry Type:
+IT Services
+Services:
+SAAS services, Marketing services, Business consultant
+Organization Size:
+100+
+Project Description
+Building a large data warehouse that houses projects and tenders data from all over the world that is to be collected from official government websites, multilateral banks, state and local government agencies, data aggregating websites, etc.
+Our Solution
+We had tried multiple solutions to prevent the program from running out of memory. We used python pandas techniques to control the use of memory which worked for some files and did not work for others. Provided more solutions using vaex ,dask module and datatables.
+Project Deliverables
+Desired changes to the code and committing them to github.
+Tools used
+Vscode
+Python
+Github
+Slack
+Language/techniques used
+Chunking
+dask Dataframe
+vaex
+datatable
+python.
+Skills used
+Cloud
+Python
+Time complexity
+What are the technical Challenges Faced during Project Execution
+System specs requirement was the main issue during this project because the RAM available was too less and got used up quickly.
+How the Technical Challenges were Solved
+Team viewer to use remote desktop which had higher specs would be sufficient enough to solve the problem.
+Business Impact
+Provided various techniques to solve memory issues.
+Suggested parallel programming to decrease the execution time by 12% making getting the tender data at a much faster rate.
+Project Snapshots

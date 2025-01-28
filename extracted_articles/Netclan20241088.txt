@@ -1,0 +1,59 @@
+Ranking customer behaviours for business strategy
+Client Background
+Client:
+A Leading Retail Firm in the USA
+Industry Type:
+Retail
+Services:
+Retail Business
+Organization Size:
+100+
+The Problem
+Create an API service that will parse text, include comments, analyse the remarks, assign a score based on sentiment or other criteria, etc. Feed it comments, and it should analyse the syntax and sentiment of the comments as well as extract key terms to add to the extended meta data of that model. In order for us to know a user’s behaviour, personal information, and more meta data about their interests
+Our Solution
+Created a flask API, that will take comments as input and will textual analysis as follows:
+Spell and Grammar Check
+: We have used
+language tool python
+for this ,
+LanguageTool
+is an open-source grammar tool, also known as the spellchecker for OpenOffice. This library allows you to detect grammar errors and spelling mistakes through a Python script or through a command-line interface.
+Sentimental Analysis
+: For Sentimental Analysis we used FLAIR, Flair is a pre-trained embedding-based model. This means that each word is represented inside a vector space. Words with vector representations most similar to another word are often used in the same context. This allows us, to, therefore, determine the sentiment of any given vector, and therefore, any given sentence.
+Keywords Extraction
+:
+For keywords extraction we used
+SPACY
+which is newer than NLTK or Scikit-Learn, is aimed at making deep learning for text data analysis as simple as possible. The following are the procedures involved in extracting keywords from a text using spacy.
+Split the input text content by tokens
+Extract the hot words from the token list.
+Set the hot words as the words with pos tag “
+PROPN
+“, “
+ADJ
+“, or “
+NOUN
+“. (POS tag list is customizable)
+Find the most common T number of hot words from the list
+Solution Architecture
+Deliverables
+CommentScoringAPI that will take comments/reviews as input, and do the textual analysis on the given comment and will return the Comment Score based on counts of spell and grammar errors, sentiments, hot keywords.
+Tools used
+Numpy
+,
+pandas
+,
+flask
+,
+NLTK
+,
+Spacy
+(Keyword Extraction),
+language tool python
+(spell and grammar check),
+flair
+(Sentimental Analysis)
+Language/techniques used
+Python
+Business Impact
+Client have a user schema that contain all the information of users that have visited there platform, and he/she want to build a Script that will take all the reviews of a certain User as input and than will do textual analysis on all the comments of the user , by textual analysis we mean Spell and Grammar Check, Sentimental Analysis, and Keywords extraction. Based on these factors our Script scored each user and helped Client to understand his/her users well.

@@ -1,0 +1,44 @@
+NFT Data Automation (looksrare), and ETL tool
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT Services
+Services:
+Blockchain, NFT
+Organization Size:
+10+
+Project Objective
+To scrape all the desired information regarding the NFTs from a website and store them in a database to be accessed later on.
+Project Description
+Matthew Brown – extract all events, all time from this
+
+. We can then pay you weekly to keep them up to date. You can choose any technology you like, as long as it’s updated into an SQL database. Additional tasks may be to make an alert or dashboard from data, later access API when it becomes available.
+Our Solution
+We provided a robust solution which returned the NFT data every 8 hours into the google big query database. To do this we used selenium web driver to scrape all events as the website was dynamic and did not have a format data structure to scrape data using AJAX POST calls. After automating the scarper the data was manipulated and constructed into a desired format into pandas dataframe, which was later used to push the dataframe into the google big query database using Google cloud api and credentials. The data was getting collected every day and about 50M distinct rows were created.
+Project Deliverables
+Webcrawler and database
+Tools used
+Python
+Selenium
+GBQ
+Language/techniques used
+Python
+Selenium web scraper
+Pandas
+Google big query
+Parallel processing.
+Databases used
+SQL
+Google BigQuery
+Web Cloud Servers used
+Google BigQuery
+What are the technical Challenges Faced during Project Execution
+The only technical challenge faced during this project was that the website used to keep changing the elements on their webpage and used to cause error. Though it did not use to happen regularly, it happened 3 times in 5 weeks. Also AJAX calls were not proper.
+How the Technical Challenges were Solved
+Identifying the elements solved the issue. Also remote access to a better desktop enabled me to keep working as well as keep the code running all the time.
+Business Impact
+Supplied upto 50 million rows data regarding NFTs.
+Provided a python solution with optimal functions and code to be used and automate them to save the data into a database on a daily basis.
+Caused a huge influx of data which can be used to make many insightful decisions regarding the nft market.
+Project Snapshots

@@ -1,0 +1,63 @@
+Sports Prediction Model for Multiple Sports Leagues
+Client Background
+Client:
+A leading sports tech firm in the USA
+Industry Type:
+Sports
+Products & Services:
+Sports Management, SaaS
+Organization Size:
+100+
+The Problem
+The client aimed to develop a sophisticated sports prediction model capable of forecasting game outcomes across five major sports leagues: NCAAFB, NHL, NFL, NBA, and MLB. The primary challenge was to leverage historical data and statistical inputs to accurately predict game winners. The project required integrating data from the SportRadar API, processing it efficiently, and utilizing machine learning techniques to train a predictive model. The ultimate goal was to provide real-time predictions that could assist in sports betting strategies or enhance fan engagement.
+Our Solution
+The proposed solution involved creating a comprehensive sports prediction model using Python, leveraging the SportRadar API for data acquisition, and storing the data in Google Cloud Storage. The project was structured around a modular approach, with each sport having its dedicated script (`{sport_name}.py`) for data processing and model training. The development workflow included:
+– **Data Collection**: Utilizing the SportRadar API to gather historical data for the past 3-4 seasons.
+– **Data Processing**: Storing the data in Google Cloud Storage and processing it into a structured format suitable for model training.
+– **Model Training**: Preparing the data for model training, focusing on converting JSON data to tabular format and fetching relevant team stats.
+– **Prediction**: Developing the predictive model to forecast game outcomes based on historical data and statistical inputs.
+Solution Architecture
+Data Acquisition
+: Leveraging the SportRadar API for data collection.
+Data Storage
+: Utilizing Google Cloud Storage for efficient data storage and retrieval.
+Data Processing
+: Implementing data processing scripts to prepare the data for model training.
+Model Development
+: Building the predictive model using Python and machine learning libraries.
+Deployment
+: Planning for deployment as a Flask API or Google Cloud Function for real-time predictions.
+Deliverables
+End-to-end data pipeline
+A comprehensive sports prediction model for NCAAFB, NHL, NFL, NBA, and MLB.
+Scripts for data collection, processing, and model training.
+Documentation detailing the project’s structure, data processing steps, and model development process.
+A plan for deploying the model in a production environment.
+Tech Stack
+Tools used
+Python
+Google Cloud Storage
+Machine Learning
+Google Cloud Functions
+Language/techniques used
+Python
+Models used
+LSTM, GRU, ANN, PyCaret
+Skills used
+Data Analysis
+Data Visualization
+Cloud Functions
+API Integration
+Databases used
+Cloud Storage
+What are the technical Challenges Faced during Project Execution
+Data Collection and Storage: Collecting data for the past 3-4 seasons’ schedules, team stats, and game stats from the SportRadar API and storing it in GCP was a significant challenge.
+Data Processing: Processing the raw data to create a DataFrame and augmenting it with necessary statistics was another challenge.
+Model Training: Training the model with the processed data to predict game outcomes was a complex task due to the vast amount of data and the need for accurate predictions.
+How the Technical Challenges were Solved
+Data Collection and Storage: The data was collected through the SportRadar API and stored in a Google Cloud Storage bucket named ‘data_parlayy’. The GCP client was configured using a service account JSON key obtained from an environment variable GCS_Service_Account_JSON_KEY.
+Data Processing: The raw data was processed through various steps to create a DataFrame and augment it with necessary statistics.
+Model Training: The model training involves converting game summary and statistics data from JSON to tabular format, fetching team stats, and past game stats. The team stats and past few games stats are already processed and ready for training.
+Business Impact
+The implementation of the sports prediction model has the potential to significantly impact the sports betting and fan engagement industries. By providing accurate predictions of game outcomes, the model can assist in sports betting strategies or fan engagement activities by providing great insights. This can lead to improved decision-making processes, increased operational efficiency, and strategic planning within the sports betting and fan engagement industries.
+The sports prediction model project by Kason Karangwa is a significant step towards leveraging data science and machine learning to predict sports outcomes. The project not only addresses the technical challenges of data collection, processing, and model training but also has the potential to significantly impact the sports betting and fan engagement industries. With the successful completion of the project, Kason Karangwa has demonstrated the power of data science in predicting sports outcomes, setting a new standard for sports prediction models.

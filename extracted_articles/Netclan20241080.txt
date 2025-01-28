@@ -1,0 +1,39 @@
+Using Graph Technology to Create Single Customer View.
+Client Background
+Client:
+A leading retail firm in Newzealand
+Industry Type:
+Retail
+Services:
+Retail business
+Organization Size:
+100+
+The Problem
+Companies face issue of having a Single customer under various rows with slightly different information in the same database. This causes unwanted duplication and inaccurate statistics. It also results in inaccurate ad targeting and financial loss.
+Our Solution
+We leverage graph technology to create a single customer view by using Complex cypher queries  and Graph Algorithms.
+Solution Architecture
+We have an Azure VM on which we have installed the Neo4j Database. Deployment architecture is a single Instance because of using the Community version of the software.
+Deliverables
+Populated Neo4j Database.
+Required Cypher Queries.
+Tools used
+Neo4j
+Graphlytics
+Language/techniques used
+Java
+Cypher Query
+Models used
+Node-Relationship model
+Skills used
+Data Analytics
+Data Engineering
+Data Science
+Databases used
+Neo4j
+Web Cloud Servers used
+AZURE
+What are the technical Challenges Faced during Project Execution
+Only 1 Difficulty was faced in this Project and that was to migrate data from Elasticsearch to Neo4j.
+How the Technical Challenges were Solved
+Research and Experimentation.

@@ -1,0 +1,26 @@
+AI Solutions for Foreign Exchange – An Automated Algo Trading Tool
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+Financial Services
+Services:
+Trading, consulting, financial serivices
+Organization Size:
+100+
+The Problem
+Our main objective in this project was to help with setting up with given Broker API using MT4 and extracting historical data from it, and solving different tasks which are related to extracting important values from the data. And tasks assigned by the client were related to working around the data, i.e. formatting, connecting with the IG trade broker, automating the Python script and scheduling the script accordingly.
+Our Solution
+During the initial phase, we were assigned to set up an MT4 with given Broker API access to extract historical prices, which was delivered to the client. In the second phase, the client requested to implement Profit/Loss, Spread Direction and Time in Trade. There were minute tasks related to the R script, which was duly completed. In the third phase, the client was assigned a task related to distinguishing the tickers according to cluster types which he provided and implemented code to distinguish the sell and buy spread for the given STD. In the fourth phase, I implemented the logic (Profit/Loss – (1% of 1st Currency + 1% of 2nd Currency)) into the existing code and worked on retrieving Historical prices from another Broker API and retrieving Watchlist given attributes by the client. Automated the Python script to retrieve yesterday’s market price of the given list
+Deliverables
+Successfully delivered set-up in MT4 for retrieving historical prices, Created logic for automating the profit and loss, Implemented code to distinguish the tickers according to the cluster type, Implemented code for distinguish the sell and buy spread for the given STD, Implemented the logic (Profit/Loss – (1% of 1st Currency + 1% of 2nd Currency)) into the existing code. Automated the Python script to retrieve yesterday’s market price.
+Tools used
+MT4, Jupyter Notebook, Excel, IG trade, Remote Desktop setup
+Language/techniques used
+MQL, Python, R
+Skills used
+Critical thinking, Logical Thinking
+What are the technical Challenges Faced during Project Execution?
+While setting up MT4 platform and its configurations
+How the Technical Challenges were Solved
+The above-mentioned challenges were resolved after many hours of effort and understanding.

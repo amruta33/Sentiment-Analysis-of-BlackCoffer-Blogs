@@ -1,0 +1,41 @@
+Datawarehouse, and Recommendations Engine for AirBNB
+Client Background
+Client:
+A leading hotels chain in the USA
+Industry Type:
+Real Estate, Hospitality
+Services:
+Hostpitality
+Organization Size:
+1000+
+Project Objective
+To download the data from the servers using Cyberduck on the daily basis and perform data engineering on it.
+Project Description
+Firstly, download the property and forward files from the server
+Secondly, From the property master file a new data set was created with the conditions that the Bedrooms from Property file should be 5 or more or Max Guests from Property File should be 16 or more and City from Property File should be Sevierville or Pigeon Forge or Gatlinburg.
+In the forward file only those with status = R were kept and the other data was removed.
+Finally, forward file was merged with the new data set on ‘Property ID’ i.e., keeping only those forward data with the common ‘Property ID’ and City, Bedrooms, Max Guests columns from the new dataset was added to the forward file.
+Our Solution
+We created a Python Script which performs the task and create property and forward master files, which we deliver to client on weekly basis.
+Project Deliverables
+Two csv files named property master file and forward master file to be delivered weekly after applying various steps.
+Tools used
+PyCharm, PowerBi, Cyberduck, Microsoft Excel.
+Language/techniques used
+Python Programming Language is used to create scripts performing Data Manipulation in different files.
+Models used
+SDLC is a process followed for a software project, within a software organization. It consists of a detailed plan describing how to develop, maintain, replace and alter or enhance specific software. The life cycle defines a methodology for improving the quality of software and the overall development process.
+We are using Iterative Waterfall SDLC Model as we have to follow our development of software in phases and we also need feedback on every step of the development of our project so as to keep track of the occurring changes with every step.
+Figure 1 SDLC Iterative Waterfall Model
+Skills used
+Skills such as Data Pre-processing, cleaning, and data manipulation are used in this project.
+Databases used
+We used traditional way of storing the data i.e file systems.
+Web Cloud Servers used
+Cyberduck, which is a libre server and cloud storage browser for Mac and Windows with support for FTP, SFTP, WebDAV, Amazon S3 etc, was used in this project with Amazon S3 servers.
+What are the technical Challenges Faced during Project Execution?
+Data to be processed was very big in size, so space complexity was a challenge in this project
+How the Technical Challenges were Solved
+To solve the space complexity issues, we tried PowerBi, but now time complexity arises.
+Then we did processing in chunks, by reducing file sizes to avoid memory errors.
+Project Snapshots (Minimum 10 Pictures)
