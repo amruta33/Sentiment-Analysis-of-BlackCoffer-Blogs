@@ -71,4 +71,6 @@ The results of the sentiment analysis and text metrics calculation are saved in 
 - AVG WORD LENGTH: The average length of words in the text. 📏
 
 
-![Screenshot 2025-01-28 191928](https://github.com/user-attachments/assets/a4319993-30fd-4a62-a42b-8fdd477cce3c)
+![Screenshot 2025-01-28 191928](https://github.com/user-attachments/assets/cf4a8ec9-0e7a-43bb-a1dc-1e040469ee45)
+
+![Screenshot 2025-01-28 192012](https://github.com/user-attachments/assets/cdec80d2-8917-43cf-bc02-95b555744e6c)
