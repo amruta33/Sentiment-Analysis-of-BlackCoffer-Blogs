@@ -1,6 +1,6 @@
 # Sentiment Analysis of Blogs
 
-This project SCRAPS data from BLACKCOFFER blog posts using Scrapy's Spider and performs sentiment analysis and calculates various text metrics on a collection of text data. It uses natural language processing techniques to analyze the sentiment of the text and measure its complexity and subjectivity. The project utilizes the Python programming language and various libraries such as Pandas, NumPy, NLTK, Scrapy. 📊📝
+This project Extract data from BLACKCOFFER blog posts using BeautifulSoup and performs sentiment analysis and calculates various text metrics on a collection of text data. It uses natural language processing techniques to analyze the sentiment of the text and measure its complexity and subjectivity. The project utilizes the Python programming language and various libraries such as Pandas, NumPy, NLTK, BeautifulSoup. 📊📝
 
 ## Table of Contents
 
@@ -13,25 +13,26 @@ This project SCRAPS data from BLACKCOFFER blog posts using Scrapy's Spider and p
 
 1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
 2. Navigate to the project directory: `cd project-name`
-3. Install the required dependencies: `pip install pandas numpy nltk scrapy` 💻📦
+3. Install the required dependencies: `pip install pandas numpy nltk BeautifulSoup` 💻📦
 
 ## Usage
 
 1. Prepare the data:
    - Ensure that the required data files are available in the specified directory:
-     - Stop words: `Data/MasterDictionary/StopWords`
+     - Stop words: `Data/StopWords`
      - Master dictionary: `Data/MasterDictionary`
-     - Scrapped data: `Data/Scrapped_data`
+     - Scrapped data: `Data/extracted_articles`
      - Output data structure: `Output Data Structure.xlsx`
    - **Update the data paths in the code if necessary.**
 
-2. Execute the Python script: `python Text_analysis.ipynb` ▶️
+2. Execute the Python script: `Text_analysis_blackcofee_assignment.ipynb` ▶️ python file Text_analysis.py
 
 3. Wait for the script to complete the sentiment analysis and text metrics calculation.
 
 4. Retrieve the results:
-   - The results are saved in the file `Blackcoffer_OUTPUT.xlsx`.
+   - The results are saved in the file `app.py`.
 
+5. If you want to Analyse Blog use app: `Text_analysis_blackcofee_assignment
 ## Features
 
 - Automatically Scraps Important data from the blog post ignoring the irrelevant information.
@@ -52,7 +53,7 @@ This project SCRAPS data from BLACKCOFFER blog posts using Scrapy's Spider and p
 
 ## Results
 
-The results of the sentiment analysis and text metrics calculation are saved in the `Blackcoffer_OUTPUT.xlsx` file. The Excel file contains a sheet with the following columns:
+The results of the sentiment analysis and text metrics calculation are saved in the `Output.xlsx` file. The Excel file contains a sheet with the following columns:
 
 - URL_ID: The identifier of the URL. 🔗
 - POSITIVE SCORE: The count of positive words in the text. 👍
