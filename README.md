@@ -21,7 +21,7 @@ This project Extract data from BLACKCOFFER blog posts using BeautifulSoup and pe
    - Ensure that the required data files are available in the specified directory:
      - Stop words: `Data/StopWords`
      - Master dictionary: `Data/MasterDictionary`
-     - Scrapped data: `Data/extracted_articles`
+     - Extracted data: `Data/extracted_articles`
      - Output data structure: `Output Data Structure.xlsx`
    - **Update the data paths in the code if necessary.**
 
