@@ -30,15 +30,15 @@ This project Extract data from BLACKCOFFER blog posts using BeautifulSoup and pe
 3. Wait for the script to complete the sentiment analysis and text metrics calculation.
 
 4. Retrieve the results:
-   - The results are saved in the file `app.py`.
+   - The results are saved in the file `Output.xlsx`.
 
-5. If you want to Analyse Blog use app: `Text_analysis_blackcofee_assignment
+5. If you want to Analyse Blog run app: `app.py`
 ## Features
 
-- Automatically Scraps Important data from the blog post ignoring the irrelevant information.
+- Automatically Extract Important data from the blog post ignoring the irrelevant information.
 - Generates a list of stopwords to remove common words from the text. 🛑
 - Creates a master dictionary of positive and negative words for sentiment analysis. 📚
-- Retrieves content from scrapped data files based on URL IDs. 📂
+- Retrieves content from Extracted data files based on URL IDs. 📂
 - Performs sentiment analysis using the master dictionary and calculates positive and negative scores. 😃😔
 - Calculates various text metrics:
   - Average number of syllables per word
@@ -69,4 +69,5 @@ The results of the sentiment analysis and text metrics calculation are saved in 
 - SYLLABLE PER WORD: The average number of syllables per word. 📏
 - PERSONAL PRONOUNS: The count of personal pronouns in the text. 👥
 - AVG WORD LENGTH: The average length of words in the text. 📏
+
 
